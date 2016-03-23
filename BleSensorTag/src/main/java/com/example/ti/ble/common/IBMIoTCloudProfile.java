@@ -78,6 +78,13 @@ import org.eclipse.paho.client.mqttv3.MqttException;
 import org.eclipse.paho.client.mqttv3.MqttMessage;
 import org.eclipse.paho.client.mqttv3.persist.MemoryPersistence;
 
+import java.io.BufferedInputStream;
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStream;
+import java.io.InputStreamReader;
+import java.net.HttpURLConnection;
+import java.net.URL;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Properties;
@@ -376,9 +383,12 @@ public class IBMIoTCloudProfile extends GenericBluetoothProfile {
                         publishValues += "\"" + var + "\"" + ":" + "\"" + val + "\"" + ",\n";
                     }
                     if (publishValues.length() > 0) {
-                        String pub = publishValues.substring(0, publishValues.length() - 2);
-                        client.publish(config.publishTopic, jsonEncode(pub).getBytes(), 0, false);
+                        //String pub = publishValues.substring(0, publishValues.length() - 2);
+                        // client.publish(config.publishTopic, jsonEncode(pub).getBytes(), 0, false);
                         //Log.d("IBMIoTCloudProfile", "Published :" + jsonEncode(pub));
+                        // se usa el replace por que thingspeak recive . en lugar de , y # como separador
+                        updateReceivedData(dict.get("humidity").replace(",",".")+"#"+dict.get("light").replace(",","."));
+                        Log.d("IBMIoTCloudProfile", "humidity :"+ dict.get("humidity"));
                         try {
                             Thread.sleep(60);
                         }
@@ -396,11 +406,79 @@ public class IBMIoTCloudProfile extends GenericBluetoothProfile {
                 else {
                     Log.d("IBMIoTCloudProfile", "MQTTTimerTask ran, but MQTT not ready");
                 }
-            } catch (MqttException e) {
+            } catch (Exception e) {
                 e.printStackTrace();
             }
         }
     }
+
+    private void updateReceivedData(String karelRead1) {
+
+        // si la trama contiene el mensaje de thingspeak envia la trama
+        //StringTokenizer st = new StringTokenizer(message, "thingspeak");
+        // se saca un substring que elimina el indice thingspeak y el /n del final de la linea
+        String ms = karelRead1;
+
+
+        // // TODO: 22/03/2016  api key automatic
+        String url = "https://api.thingspeak.com/update?api_key=K24OF4CX99WPXXV7";
+       // String url = "https://api.thingspeak.com/update?api_key="+sharedpreferences.getString(KeyThingspeak, "");
+        int i=0;
+
+
+        for (String token : ms.split("#")) {
+            i++;
+            url = url+"&field"+i+"="+token;
+        }
+
+        final String finalUrl = url;
+        Thread thread = new Thread() {
+            @Override
+            public void run() {
+                HttpURLConnection urlConnection = null;
+                StringBuilder total = new StringBuilder();
+
+                try {
+                    URL url1 = new URL(finalUrl);
+                    urlConnection = (HttpURLConnection) url1.openConnection();
+
+                } catch (IOException e) {
+                    e.printStackTrace();
+                }
+                try {
+                    InputStream in = new BufferedInputStream(urlConnection.getInputStream());
+                    BufferedReader r = new BufferedReader(new InputStreamReader(in));
+                    String line;
+                    while ((line = r.readLine()) != null) {
+                        total.append(line);
+                    }
+                    Log.d("web", total.toString()+" "+finalUrl);
+                    if(total.toString().equals("0")){
+                        //ThingspeakState= false;
+                    }else{
+                        //ThingspeakState= true;
+                    }
+
+                    //readStream(in);
+                    urlConnection.disconnect();
+
+                    //finally {
+                    //  urlConnection.disconnect();
+                    //}
+                } catch (IOException e) {
+                    //ThingspeakState= false;
+                    e.printStackTrace();
+                } catch (NullPointerException e){
+                    //ThingspeakState= false;
+                    e.printStackTrace();
+                }
+            }
+        };
+
+        thread.start();
+        karelRead1 = new String();
+    }
+
 
     private static IntentFilter makeCloudConfigUpdateFilter() {
         final IntentFilter fi = new IntentFilter();

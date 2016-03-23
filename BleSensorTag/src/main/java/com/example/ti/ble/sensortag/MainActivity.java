@@ -56,6 +56,8 @@ import java.io.File;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Timer;
+import java.util.TimerTask;
 
 import android.app.Activity;
 import android.app.AlertDialog;
@@ -75,6 +77,7 @@ import android.net.Uri;
 import android.os.Bundle;
 import android.preference.PreferenceManager;
 // import android.util.Log;
+import android.util.Log;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
@@ -126,6 +129,10 @@ public class MainActivity extends ViewPagerActivity {
 	private static final int NO_DEVICE = -1;
 	private boolean mInitialised = false;
 	SharedPreferences prefs = null;
+	// añadido
+	private Timer myTimer;
+	private int period = 15000;  // repeat every 2 min. 120000 20 sec 15000  5000
+
 
 	public MainActivity() {
 		mThis = this;
@@ -180,9 +187,28 @@ public class MainActivity extends ViewPagerActivity {
 		mFilter = new IntentFilter(BluetoothAdapter.ACTION_STATE_CHANGED);
 		mFilter.addAction(BluetoothLeService.ACTION_GATT_CONNECTED);
 		mFilter.addAction(BluetoothLeService.ACTION_GATT_DISCONNECTED);
-    }
 
 
+		// tarea se ejecuta 1 vez ojala
+		myTimer = new Timer();
+		myTimer.schedule(new TimerTask() {
+			@Override
+			public void run() {
+				//TimerMethod();
+				scanLeDevice(true);
+			}
+
+		}, period, period); //15000 5000 120000
+		//onBtnScan(this..getView());
+		// inicia la escucha del audio
+		//mReceiver.start();
+
+	}
+
+	private void TimerMethod()
+	{
+		startScan();
+	}
 
 	@Override
 	public void onDestroy() {
@@ -270,7 +296,7 @@ public class MainActivity extends ViewPagerActivity {
 
 		// License popup on first run
 		if (prefs.getBoolean("firstrun", true)) {
-			onLicense();
+			//onLicense();
 			prefs.edit().putBoolean("firstrun", false).commit();
 		}
 
@@ -305,7 +331,10 @@ public class MainActivity extends ViewPagerActivity {
 		if (mScanning) {
 			stopScan();
 		} else {
+			// // TODO: 22/03/2016 at init
 			startScan();
+			Log.d("web", "Inicia escaneo");
+
 		}
 	}
 
@@ -314,7 +343,7 @@ public class MainActivity extends ViewPagerActivity {
 
 			int connState = mBluetoothManager.getConnectionState(mBluetoothDevice,
 			    BluetoothGatt.GATT);
-
+			// todo validar que parametros tiene y quitar el if ver si arranca desde la principal
 			switch (connState) {
 			case BluetoothGatt.STATE_CONNECTED:
 				mBluetoothLeService.disconnect(null);
@@ -467,6 +496,8 @@ public class MainActivity extends ViewPagerActivity {
 			mScanView.setStatus(mNumDevs + " devices");
 		else
 			mScanView.setStatus("1 device");
+		//// TODO: 22/03/2016 se añade para autocnx  
+		onDeviceClick(0);
 	}
 
 	private boolean deviceInfoExists(String address) {
