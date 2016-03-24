@@ -76,7 +76,8 @@ public class GenericBluetoothProfile {
 	protected BluetoothGattCharacteristic dataC;
 	protected BluetoothGattCharacteristic configC;
 	protected BluetoothGattCharacteristic periodC;
-	protected static final int GATT_TIMEOUT = 250; // milliseconds
+	// TODO: 23/03/2016 puede ser el time del envio
+	protected static final int GATT_TIMEOUT = 250; // milliseconds 250
 	protected Context context;
 	protected boolean isRegistered;
     public boolean isConfigured;

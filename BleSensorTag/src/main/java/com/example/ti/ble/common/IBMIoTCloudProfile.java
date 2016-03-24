@@ -137,14 +137,22 @@ public class IBMIoTCloudProfile extends GenericBluetoothProfile {
         this.tRow.sl2.setVisibility(View.INVISIBLE);
         this.tRow.sl3.setVisibility(View.INVISIBLE);
         this.tRow.title.setText("Cloud View");
-        this.tRow.setIcon("sensortag2cloudservice","","");
+        this.tRow.setIcon("sensortag2cloudservice", "", "");
         this.tRow.value.setText("Device ID : " + addr);
 
+
+
         IBMIoTCloudTableRow tmpRow = (IBMIoTCloudTableRow) this.tRow;
+        // se deja seleccionado ya que se encuentra conectado
+        // TODO: 23/03/2016
+        connect();
+        tmpRow.pushToCloud.setChecked(true);
         tmpRow.pushToCloud.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
             @Override
             public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
                 if (isChecked) {
+                    // // TODO: 23/03/2016 mark to know connection
+                    Log.d("web", "se conecto el envio");
                     connect();
                 }
                 else {
@@ -180,7 +188,7 @@ public class IBMIoTCloudProfile extends GenericBluetoothProfile {
             ((IBMIoTCloudTableRow) this.tRow).cloudURL.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
-                    v.getContext().startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("https://quickstart.internetofthings.ibmcloud.com/#/device/" + addrShort + "/sensor/")));
+                    v.getContext().startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("https://thingspeak.com/channels/63112")));
                 }
             });
         }
@@ -236,6 +244,9 @@ public class IBMIoTCloudProfile extends GenericBluetoothProfile {
     }
 
     public boolean connect() {
+
+        /**
+         * este try es solo para validar cnx la primer vez, no es neseario ya que genera un error
         try {
             memPer = new MemoryPersistence();
             String url = config.brokerAddress + ":" + config.brokerPort;
@@ -288,9 +299,14 @@ public class IBMIoTCloudProfile extends GenericBluetoothProfile {
             e.printStackTrace();
 
         }
+        **/
+        ready = true;
+        Log.d("web", "conectado a web");
         publishTimer = new Timer();
         MQTTTimerTask task = new MQTTTimerTask();
-        publishTimer.schedule(task,1000,1000);
+        //// TODO: 23/03/2016 ponerlo cada 2 min
+        //publishTimer.schedule(task,1000,1000);
+        publishTimer.schedule(task,0,120000);
         return true;
     }
 
@@ -399,6 +415,7 @@ public class IBMIoTCloudProfile extends GenericBluetoothProfile {
                     activity.runOnUiThread(new Runnable() {
                         @Override
                         public void run() {
+                            //muestra la imagen de conectado
                             ((IBMIoTCloudTableRow)tRow).setCloudConnectionStatusImage(activity.getResources().getDrawable(R.drawable.cloud_connected));
                         }
                     });
@@ -533,7 +550,7 @@ public class IBMIoTCloudProfile extends GenericBluetoothProfile {
                 ((IBMIoTCloudTableRow) this.tRow).cloudURL.setOnClickListener(new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
-                        v.getContext().startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("https://quickstart.internetofthings.ibmcloud.com/#/device/" + addrShort + "/sensor/")));
+                        v.getContext().startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("https://thingspeak.com/channels/63112")));
                     }
                 });
             }

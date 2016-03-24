@@ -130,8 +130,8 @@ public class MainActivity extends ViewPagerActivity {
 	private boolean mInitialised = false;
 	SharedPreferences prefs = null;
 	// añadido
-	private Timer myTimer;
-	private int period = 15000;  // repeat every 2 min. 120000 20 sec 15000  5000
+	//private Timer myTimer;
+	//private int period = 15000;  // repeat every 2 min. 120000 20 sec 15000  5000
 
 
 	public MainActivity() {
@@ -188,7 +188,7 @@ public class MainActivity extends ViewPagerActivity {
 		mFilter.addAction(BluetoothLeService.ACTION_GATT_CONNECTED);
 		mFilter.addAction(BluetoothLeService.ACTION_GATT_DISCONNECTED);
 
-
+		/**
 		// tarea se ejecuta 1 vez ojala
 		myTimer = new Timer();
 		myTimer.schedule(new TimerTask() {
@@ -198,7 +198,10 @@ public class MainActivity extends ViewPagerActivity {
 				scanLeDevice(true);
 			}
 
-		}, period, period); //15000 5000 120000
+		}, 0, period); //15000 5000 120000
+		**/
+		// inicia escaneando los dispositivos cercanos como es uno solo no hay problema
+		scanLeDevice(true);
 		//onBtnScan(this..getView());
 		// inicia la escucha del audio
 		//mReceiver.start();
@@ -496,8 +499,10 @@ public class MainActivity extends ViewPagerActivity {
 			mScanView.setStatus(mNumDevs + " devices");
 		else
 			mScanView.setStatus("1 device");
-		//// TODO: 22/03/2016 se añade para autocnx  
+		//// TODO: 22/03/2016 se añade para autocnx
+		onScanTimeout();
 		onDeviceClick(0);
+		mScanning = false;
 	}
 
 	private boolean deviceInfoExists(String address) {

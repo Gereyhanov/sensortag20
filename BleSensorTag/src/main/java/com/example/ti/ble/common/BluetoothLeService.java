@@ -98,8 +98,9 @@ public class BluetoothLeService extends Service {
 	public final static String EXTRA_UUID = "com.example.ti.ble.common.EXTRA_UUID";
 	public final static String EXTRA_STATUS = "com.example.ti.ble.common.EXTRA_STATUS";
 	public final static String EXTRA_ADDRESS = "com.example.ti.ble.common.EXTRA_ADDRESS";
-    public final static int GATT_TIMEOUT = 150;
-
+    // TODO: 23/03/2016  
+    public final static int GATT_TIMEOUT = 12000; //150
+    
 	// BLE
 	private BluetoothManager mBluetoothManager = null;
 	private BluetoothAdapter mBtAdapter = null;

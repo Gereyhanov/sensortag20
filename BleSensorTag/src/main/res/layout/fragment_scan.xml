@@ -40,7 +40,7 @@
         android:layout_marginTop="20dp"
         android:contentDescription="@string/image"
         android:gravity="center"
-        android:src="@drawable/ti_stk_2c_pos_rgb_png" />
+        android:src="@drawable/haceb" />
 
     <TextView
         android:id="@+id/status"

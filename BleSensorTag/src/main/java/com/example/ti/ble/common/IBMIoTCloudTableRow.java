@@ -86,7 +86,7 @@ public class IBMIoTCloudTableRow extends GenericCharacteristicTableRow {
         this.pushToCloud.setId(100);
         this.pushToCloudCaption = new TextView(con);
         this.pushToCloudCaption.setId(101);
-        this.pushToCloudCaption.setText("Push to Cloud :");
+        this.pushToCloudCaption.setText("Concetar a thingspeak");
         this.cloudURL = new TextView(con);
         this.cloudURL.setTextSize(30);
         this.cloudURL.setTextColor(Color.BLUE);
