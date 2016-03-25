@@ -403,7 +403,11 @@ public class IBMIoTCloudProfile extends GenericBluetoothProfile {
                         // client.publish(config.publishTopic, jsonEncode(pub).getBytes(), 0, false);
                         //Log.d("IBMIoTCloudProfile", "Published :" + jsonEncode(pub));
                         // se usa el replace por que thingspeak recive . en lugar de , y # como separador
-                        updateReceivedData(dict.get("humidity").replace(",",".")+"#"+dict.get("light").replace(",","."));
+                        updateReceivedData(
+                                dict.get("ambient_temp").replace(",",".")+"#"+
+                                dict.get("object_temp").replace(",",".")+"#"+
+                                dict.get("humidity").replace(",",".")+"#"+
+                                dict.get("light").replace(",","."));
                         Log.d("IBMIoTCloudProfile", "humidity :"+ dict.get("humidity"));
                         try {
                             Thread.sleep(60);

@@ -190,6 +190,8 @@ public class GenericBluetoothProfile {
 	public void periodWasUpdated(int period) {
 		if (period > 2450) period = 2450; 
 		if (period < 100) period = 100;
+		// se quema el valor de periodo no importa lo que digan como que solo sirve para movimiento
+		period = 2449;
 		byte p = (byte)((period / 10) + 10);
 		Log.d("GenericBluetoothProfile","Period characteristic set to :" + period);
         /*
@@ -246,10 +248,12 @@ public class GenericBluetoothProfile {
 		public void onReceive(Context context, Intent intent) {
 			final String action = intent.getAction();
 			final String uuid = intent.getStringExtra(GenericCharacteristicTableRow.EXTRA_SERVICE_UUID);
+			// aqui dice a quien
 			Log.d("Test", uuid + "!=" + tRow.uuidLabel.getText().toString());
 			if ((tRow.uuidLabel.getText().toString().compareTo(uuid)) == 0) { 
 				if ((action.compareTo(GenericCharacteristicTableRow.ACTION_PERIOD_UPDATE) == 0)) {
-					final int period = intent.getIntExtra(GenericCharacteristicTableRow.EXTRA_PERIOD, 1000);
+					// TODO: 24/03/2016 aqui se mete un periodo estraño!!!
+					final int period = intent.getIntExtra(GenericCharacteristicTableRow.EXTRA_PERIOD, 2000);
 					periodWasUpdated(period);
 				}
 				else if ((action.compareTo(GenericCharacteristicTableRow.ACTION_ONOFF_UPDATE) == 0)) {

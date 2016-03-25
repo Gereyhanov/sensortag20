@@ -525,7 +525,7 @@ public class GenericCharacteristicTableRow extends TableRow implements View.OnCl
 	@Override
 	public void onProgressChanged(SeekBar seekBar, int progress,
 			boolean fromUser) {
-		Log.d("GenericBluetoothProfile", "Period changed : " + progress);
+		Log.d("GenericBluetoothProfile", "Period changed : " + progress + " real : " + ((progress * 10) + periodMinVal));
 		this.periodLegend.setText("Sensor period (currently : " + ((progress * 10) + periodMinVal) + "ms)");
 	}
 	@Override

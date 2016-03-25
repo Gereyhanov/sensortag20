@@ -93,7 +93,7 @@ import com.example.ti.util.Point3D;
 			this.tRow.value.setText("0.0'C");
 			this.tRow.periodMinVal = 200;
 			this.tRow.periodBar.setMax(255 - (this.tRow.periodMinVal / 10));
-			this.tRow.periodBar.setProgress(100);
+			this.tRow.periodBar.setProgress(200);// antes 100
 		}
         @Override
         public void didUpdateValueForCharacteristic(BluetoothGattCharacteristic c) {

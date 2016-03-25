@@ -115,7 +115,7 @@ public class SensorTagMovementProfile extends GenericBluetoothProfile {
                 }
             }
         });
-		this.tRow.periodBar.setProgress(100);
+		this.tRow.periodBar.setProgress(200);
 	}
 	
 	public static boolean isCorrectService(BluetoothGattService service) {

@@ -95,7 +95,7 @@ public class SensorTagAmbientTemperatureProfile extends GenericBluetoothProfile 
 		this.tRow.value.setText("0.0'C");
 		this.tRow.periodMinVal = 200;
 		this.tRow.periodBar.setMax(255 - (this.tRow.periodMinVal / 10));
-		this.tRow.periodBar.setProgress(100);
+		this.tRow.periodBar.setProgress(200);
 	}
 	public void configureService() {
         int error = mBTLeService.writeCharacteristic(this.configC, (byte)0x01);
