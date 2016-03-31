@@ -304,7 +304,7 @@ public class IBMIoTCloudProfile extends GenericBluetoothProfile {
         Log.d("web", "conectado a web");
         publishTimer = new Timer();
         MQTTTimerTask task = new MQTTTimerTask();
-        //// TODO: 23/03/2016 ponerlo cada 2 min
+        // cada 2 min
         //publishTimer.schedule(task,1000,1000);
         publishTimer.schedule(task,0,120000);
         return true;

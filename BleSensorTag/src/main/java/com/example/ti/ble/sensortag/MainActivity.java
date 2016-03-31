@@ -189,7 +189,7 @@ public class MainActivity extends ViewPagerActivity {
 		mFilter.addAction(BluetoothLeService.ACTION_GATT_DISCONNECTED);
 
 		/**
-		// tarea se ejecuta 1 vez ojala
+		// escanea cada que
 		myTimer = new Timer();
 		myTimer.schedule(new TimerTask() {
 			@Override
@@ -299,7 +299,7 @@ public class MainActivity extends ViewPagerActivity {
 
 		// License popup on first run
 		if (prefs.getBoolean("firstrun", true)) {
-			//onLicense();
+			//onLicense(); // se usa para mostrar la
 			prefs.edit().putBoolean("firstrun", false).commit();
 		}
 
@@ -332,7 +332,7 @@ public class MainActivity extends ViewPagerActivity {
 
 	public void onBtnScan(View view) {
 		if (mScanning) {
-			stopScan();
+			//stopScan();
 		} else {
 			// // TODO: 22/03/2016 at init
 			startScan();
@@ -499,7 +499,7 @@ public class MainActivity extends ViewPagerActivity {
 			mScanView.setStatus(mNumDevs + " devices");
 		else
 			mScanView.setStatus("1 device");
-		//// TODO: 22/03/2016 se añade para autocnx
+		// se añade para autocnx
 		onScanTimeout();
 		onDeviceClick(0);
 		mScanning = false;
@@ -531,6 +531,8 @@ public class MainActivity extends ViewPagerActivity {
 		} else {
 			mScanning = false;
 			mBtAdapter.stopLeScan(mLeScanCallback);
+			// cuando se detiene el escaneo reinicia la busqueda
+
 		}
 		return mScanning;
 	}

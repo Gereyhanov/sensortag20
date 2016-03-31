@@ -73,8 +73,7 @@ public class SensorTagLuxometerProfile extends GenericBluetoothProfile {
 		public SensorTagLuxometerProfile(Context con,BluetoothDevice device,BluetoothGattService service,BluetoothLeService controller) {
 			super(con,device,service,controller);
 			this.tRow =  new GenericCharacteristicTableRow(con);
-			
-			List<BluetoothGattCharacteristic> characteristics = this.mBTService.getCharacteristics();
+           	List<BluetoothGattCharacteristic> characteristics = this.mBTService.getCharacteristics();
 			
 			for (BluetoothGattCharacteristic c : characteristics) {
 				if (c.getUuid().toString().equals(SensorTagGatt.UUID_OPT_DATA.toString())) {

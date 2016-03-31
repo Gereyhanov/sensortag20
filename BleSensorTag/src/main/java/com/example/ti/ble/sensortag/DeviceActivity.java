@@ -513,6 +513,7 @@ import com.example.ti.util.PreferenceWR;
                                         hum.grayOutCell(true);
                                     }
                                     Log.d("DeviceActivity","Found Humidity !");
+                                    hum.periodWasUpdated(2450);
                                 }
                                 if (SensorTagLuxometerProfile.isCorrectService(s)) {
                                     SensorTagLuxometerProfile lux = new SensorTagLuxometerProfile(context,mBluetoothDevice,s,mBtLeService);
@@ -524,6 +525,10 @@ import com.example.ti.util.PreferenceWR;
                                     else {
                                         lux.grayOutCell(true);
                                     }
+                                    // disable service
+                                    //lux.disableService();
+                                    //lux.deConfigureService();
+                                    lux.periodWasUpdated(2450);
                                 }
                                 if (SensorTagSimpleKeysProfile.isCorrectService(s)) {
                                     SensorTagSimpleKeysProfile key = new SensorTagSimpleKeysProfile(context,mBluetoothDevice,s,mBtLeService);
@@ -548,6 +553,7 @@ import com.example.ti.util.PreferenceWR;
                                         baro.grayOutCell(true);
                                     }
                                     Log.d("DeviceActivity","Found Barometer !");
+                                    baro.periodWasUpdated(2450);
                                 }
                                 if (SensorTagAmbientTemperatureProfile.isCorrectService(s)) {
                                     SensorTagAmbientTemperatureProfile irTemp = new SensorTagAmbientTemperatureProfile(context,mBluetoothDevice,s,mBtLeService);
@@ -560,6 +566,7 @@ import com.example.ti.util.PreferenceWR;
                                         irTemp.grayOutCell(true);
                                     }
                                     Log.d("DeviceActivity","Found Ambient Temperature !");
+                                    irTemp.periodWasUpdated(2450);
                                 }
                                 if (SensorTagIRTemperatureProfile.isCorrectService(s)) {
                                     SensorTagIRTemperatureProfile irTemp = new SensorTagIRTemperatureProfile(context,mBluetoothDevice,s,mBtLeService);
@@ -572,6 +579,7 @@ import com.example.ti.util.PreferenceWR;
                                     }
                                     //No notifications add here because it is already enabled above ..
                                     Log.d("DeviceActivity","Found IR Temperature !");
+                                    irTemp.periodWasUpdated(2450);
                                 }
                                 if (SensorTagMovementProfile.isCorrectService(s)) {
                                     SensorTagMovementProfile mov = new SensorTagMovementProfile(context,mBluetoothDevice,s,mBtLeService);
@@ -584,6 +592,7 @@ import com.example.ti.util.PreferenceWR;
                                         mov.grayOutCell(true);
                                     }
                                     Log.d("DeviceActivity","Found Motion !");
+                                    mov.periodWasUpdated(2450);
                                 }
                                 if (SensorTagAccelerometerProfile.isCorrectService(s)) {
                                     SensorTagAccelerometerProfile acc = new SensorTagAccelerometerProfile(context,mBluetoothDevice,s,mBtLeService);
@@ -596,7 +605,7 @@ import com.example.ti.util.PreferenceWR;
                                         acc.grayOutCell(true);
                                     }
                                     Log.d("DeviceActivity","Found Motion !");
-
+                                    acc.periodWasUpdated(2450);
                                 }
                                 if (SensorTagDisplayProfile.isCorrectService(s)) {
                                     SensorTagDisplayProfile d = new SensorTagDisplayProfile(context,mBluetoothDevice,s,mBtLeService);

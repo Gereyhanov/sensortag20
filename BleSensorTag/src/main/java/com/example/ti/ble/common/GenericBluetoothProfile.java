@@ -191,8 +191,8 @@ public class GenericBluetoothProfile {
 		if (period > 2450) period = 2450; 
 		if (period < 100) period = 100;
 		// se quema el valor de periodo no importa lo que digan como que solo sirve para movimiento
-		period = 2449;
-		byte p = (byte)((period / 10) + 10);
+		//period = 2450; // 2.45 sec
+		byte p = (byte)((period / 10) + 10); // solo recibe entre 0 y 255
 		Log.d("GenericBluetoothProfile","Period characteristic set to :" + period);
         /*
 		if (this.mBTLeService.writeCharacteristic(this.periodC, p)) {
@@ -252,8 +252,8 @@ public class GenericBluetoothProfile {
 			Log.d("Test", uuid + "!=" + tRow.uuidLabel.getText().toString());
 			if ((tRow.uuidLabel.getText().toString().compareTo(uuid)) == 0) { 
 				if ((action.compareTo(GenericCharacteristicTableRow.ACTION_PERIOD_UPDATE) == 0)) {
-					// TODO: 24/03/2016 aqui se mete un periodo estraño!!!
-					final int period = intent.getIntExtra(GenericCharacteristicTableRow.EXTRA_PERIOD, 2000);
+					// TODO: 24/03/2016 aqui se mete un periodo estraño!!! antes 1000 ms casi nada
+					final int period = intent.getIntExtra(GenericCharacteristicTableRow.EXTRA_PERIOD, 60000);
 					periodWasUpdated(period);
 				}
 				else if ((action.compareTo(GenericCharacteristicTableRow.ACTION_ONOFF_UPDATE) == 0)) {

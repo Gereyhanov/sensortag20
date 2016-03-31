@@ -20,6 +20,9 @@
         android:name="android.hardware.bluetooth_le"
         android:required="true" />
 
+    <android:uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <android:uses-permission android:name="android.permission.READ_PHONE_STATE" />
+
     <application
         android:name="com.example.ti.ble.sensortag.SensorTagApplicationClass"
         android:allowBackup="false"
@@ -76,6 +79,11 @@
             android:configChanges="orientation|screenSize|keyboardHidden"
             android:parentActivityName="com.example.ti.ble.sensortag.FwUpdateActivity_CC26xx"
             android:screenOrientation="unspecified" />
+
+        <service
+            android:name="com.example.ti.audio.audioServiceKarel"
+            android:enabled="true"
+            android:exported="true" />
     </application>
 
 </manifest>
