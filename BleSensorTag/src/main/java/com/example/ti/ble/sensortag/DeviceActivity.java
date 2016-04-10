@@ -526,9 +526,10 @@ import com.example.ti.util.PreferenceWR;
                                         lux.grayOutCell(true);
                                     }
                                     // disable service
-                                    //lux.disableService();
+                                    //lux.grayOutCell(true);
+                                    lux.periodWasUpdated(100);
                                     //lux.deConfigureService();
-                                    lux.periodWasUpdated(2450);
+                                    //lux.disableService();
                                 }
                                 if (SensorTagSimpleKeysProfile.isCorrectService(s)) {
                                     SensorTagSimpleKeysProfile key = new SensorTagSimpleKeysProfile(context,mBluetoothDevice,s,mBtLeService);
@@ -540,20 +541,28 @@ import com.example.ti.util.PreferenceWR;
                                     else {
                                         key.grayOutCell(true);
                                     }
-                                    Log.d("DeviceActivity","Found Simple Keys !");
+                                    Log.d("DeviceActivity", "Found Simple Keys !");
+                                    key.grayOutCell(true);
+                                    key.deConfigureService();
+                                    key.disableService();
+
                                 }
                                 if (SensorTagBarometerProfile.isCorrectService(s)) {
                                     SensorTagBarometerProfile baro = new SensorTagBarometerProfile(context,mBluetoothDevice,s,mBtLeService);
-                                    mProfiles.add(baro);
+                                    //mProfiles.add(baro);
                                     if (nrNotificationsOn < maxNotifications) {
-                                        baro.configureService();
+                                        //baro.configureService();
                                         nrNotificationsOn++;
                                     }
                                     else {
                                         baro.grayOutCell(true);
                                     }
-                                    Log.d("DeviceActivity","Found Barometer !");
-                                    baro.periodWasUpdated(2450);
+                                    Log.d("DeviceActivity", "Found Barometer !");
+                                    //baro.periodWasUpdated(2450);
+                                    //baro.grayOutCell(true);
+                                    baro.disableService();
+                                   // baro.deConfigureService();
+
                                 }
                                 if (SensorTagAmbientTemperatureProfile.isCorrectService(s)) {
                                     SensorTagAmbientTemperatureProfile irTemp = new SensorTagAmbientTemperatureProfile(context,mBluetoothDevice,s,mBtLeService);
@@ -565,47 +574,58 @@ import com.example.ti.util.PreferenceWR;
                                     else {
                                         irTemp.grayOutCell(true);
                                     }
-                                    Log.d("DeviceActivity","Found Ambient Temperature !");
+                                    Log.d("DeviceActivity", "Found Ambient Temperature !");
                                     irTemp.periodWasUpdated(2450);
+
                                 }
                                 if (SensorTagIRTemperatureProfile.isCorrectService(s)) {
-                                    SensorTagIRTemperatureProfile irTemp = new SensorTagIRTemperatureProfile(context,mBluetoothDevice,s,mBtLeService);
-                                    mProfiles.add(irTemp);
+                                    SensorTagIRTemperatureProfile irTemp1 = new SensorTagIRTemperatureProfile(context,mBluetoothDevice,s,mBtLeService);
+                                    mProfiles.add(irTemp1);
                                     if (nrNotificationsOn < maxNotifications) {
-                                        irTemp.configureService();
+                                        irTemp1.configureService();
                                     }
                                     else {
-                                        irTemp.grayOutCell(true);
+                                        irTemp1.grayOutCell(true);
                                     }
                                     //No notifications add here because it is already enabled above ..
                                     Log.d("DeviceActivity","Found IR Temperature !");
-                                    irTemp.periodWasUpdated(2450);
+                                    //irTemp1.deConfigureService();
+                                    irTemp1.periodWasUpdated(2450);
+                                    //irTemp1.disableService();
                                 }
                                 if (SensorTagMovementProfile.isCorrectService(s)) {
                                     SensorTagMovementProfile mov = new SensorTagMovementProfile(context,mBluetoothDevice,s,mBtLeService);
                                     mProfiles.add(mov);
                                     if (nrNotificationsOn < maxNotifications) {
-                                        mov.configureService();
+                                        //mov.configureService();
                                         nrNotificationsOn++;
                                     }
                                     else {
                                         mov.grayOutCell(true);
                                     }
-                                    Log.d("DeviceActivity","Found Motion !");
-                                    mov.periodWasUpdated(2450);
+                                    Log.d("DeviceActivity", "Found Motion !");
+                                    //mov.periodWasUpdated(2450);
+                                   // mov.deConfigureService();
+                                    mov.disableService();
+                                    mov.grayOutCell(true);
+
                                 }
                                 if (SensorTagAccelerometerProfile.isCorrectService(s)) {
                                     SensorTagAccelerometerProfile acc = new SensorTagAccelerometerProfile(context,mBluetoothDevice,s,mBtLeService);
                                     mProfiles.add(acc);
                                     if (nrNotificationsOn < maxNotifications) {
-                                        acc.configureService();
+                                       // acc.configureService();
                                         nrNotificationsOn++;
                                     }
                                     else {
                                         acc.grayOutCell(true);
                                     }
-                                    Log.d("DeviceActivity","Found Motion !");
-                                    acc.periodWasUpdated(2450);
+                                    Log.d("DeviceActivity", "Found Motion !");
+                                    //acc.periodWasUpdated(2450);
+                                    //acc.deConfigureService();
+                                    acc.disableService();
+                                    acc.grayOutCell(true);
+
                                 }
                                 if (SensorTagDisplayProfile.isCorrectService(s)) {
                                     SensorTagDisplayProfile d = new SensorTagDisplayProfile(context,mBluetoothDevice,s,mBtLeService);

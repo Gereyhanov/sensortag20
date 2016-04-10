@@ -306,7 +306,7 @@ public class IBMIoTCloudProfile extends GenericBluetoothProfile {
         MQTTTimerTask task = new MQTTTimerTask();
         // cada 2 min
         //publishTimer.schedule(task,1000,1000);
-        publishTimer.schedule(task,0,120000);
+        publishTimer.schedule(task,0,15000); // 15000  120000
         return true;
     }
 
@@ -441,9 +441,11 @@ public class IBMIoTCloudProfile extends GenericBluetoothProfile {
         String ms = karelRead1;
 
 
-        // // TODO: 22/03/2016  api key automatic
+        // // TODO: 22/03/2016  api key automatic 3831SHX4AS2XD41T
         String url = "https://api.thingspeak.com/update?api_key=K24OF4CX99WPXXV7";
-       // String url = "https://api.thingspeak.com/update?api_key="+sharedpreferences.getString(KeyThingspeak, "");
+        //String url = "https://api.thingspeak.com/update?api_key=3831SHX4AS2XD41T";
+
+        // String url = "https://api.thingspeak.com/update?api_key="+sharedpreferences.getString(KeyThingspeak, "");
         int i=0;
 
 
