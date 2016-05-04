@@ -11,145 +11,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3dfc167a-ba0b-4b24-8bf4-cb65a581374f" name="Default" comment="se añade tiempo de actualizacion a los sensores">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/dex/debug/classes.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/incremental/aidl/androidTest/debug/dependency.store" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/incremental/aidl/debug/dependency.store" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/incremental/mergeAssets/androidTest/debug/merger.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/incremental/mergeAssets/debug/merger.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/incremental/mergeResourcesandroidTest/debug/merger.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/incremental/mergeResourcesdebug/merger.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/pre-dexed/debug/org.eclipse.paho.android.service-1.0.2-275c1d5237a867078407c88ef17205ee5235d09c.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/pre-dexed/debug/org.eclipse.paho.client.mqttv3-1.0.2-fec5bb02a99184c983f18617159f985819ca098d.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/pre-dexed/debug/support-v4-19.1.0-891db560d2ca6d49c943748aed690e07676b5c18.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/res/merged/debug/drawable-hdpi/accelerometer.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/res/merged/debug/drawable-hdpi/barometer.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/res/merged/debug/drawable-hdpi/bluetooth.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/res/merged/debug/drawable-hdpi/cloud_connected.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/res/merged/debug/drawable-hdpi/cloud_connected_tx.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/res/merged/debug/drawable-hdpi/cloud_disconnected.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/res/merged/debug/drawable-hdpi/colorpicker.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/res/merged/debug/drawable-hdpi/deviceinfo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/res/merged/debug/drawable-hdpi/gyroscope.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/res/merged/debug/drawable-hdpi/humidity.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/res/merged/debug/drawable-hdpi/ic_action_about.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/res/merged/debug/drawable-hdpi/ic_action_bluetooth.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/res/merged/debug/drawable-hdpi/ic_action_cancel.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/res/merged/debug/drawable-hdpi/ic_action_refresh.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/res/merged/debug/drawable-hdpi/ic_action_settings.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/res/merged/debug/drawable-hdpi/irtemperature.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/res/merged/debug/drawable-hdpi/leftkey_300.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/res/merged/debug/drawable-hdpi/leftkeyoff_300.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/res/merged/debug/drawable-hdpi/leftkeyon_300.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/res/merged/debug/drawable-hdpi/list_item_normal.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/res/merged/debug/drawable-hdpi/magnetometer.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/res/merged/debug/drawable-hdpi/reedrelayoff_300.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/res/merged/debug/drawable-hdpi/reedrelayon_300.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/res/merged/debug/drawable-hdpi/rightkey_300.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/res/merged/debug/drawable-hdpi/rightkeyoff_300.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/res/merged/debug/drawable-hdpi/rightkeyon_300.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/res/merged/debug/drawable-hdpi/sensortag.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/res/merged/debug/drawable-hdpi/sensortag2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/res/merged/debug/drawable-hdpi/sensortag2accelerometer.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/res/merged/debug/drawable-hdpi/sensortag2barometer.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/res/merged/debug/drawable-hdpi/sensortag2ccs.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/res/merged/debug/drawable-hdpi/sensortag2cloudservice.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/res/merged/debug/drawable-hdpi/sensortag2deviceinfo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/res/merged/debug/drawable-hdpi/sensortag2display.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/res/merged/debug/drawable-hdpi/sensortag2gyroscope.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/res/merged/debug/drawable-hdpi/sensortag2humidity.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/res/merged/debug/drawable-hdpi/sensortag2irtemperature.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/res/merged/debug/drawable-hdpi/sensortag2light.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/res/merged/debug/drawable-hdpi/sensortag2lightsensor.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/res/merged/debug/drawable-hdpi/sensortag2magnetometer.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/res/merged/debug/drawable-hdpi/sensortag2motion.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/res/merged/debug/drawable-hdpi/sensortag2oad.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/res/merged/debug/drawable-hdpi/sensortag2rssi.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/res/merged/debug/drawable-hdpi/sensortag2simplekeys.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/res/merged/debug/drawable-hdpi/sensortag2temperature.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/res/merged/debug/drawable-hdpi/simplekeys.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/res/merged/debug/drawable-hdpi/temperature.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/res/merged/debug/drawable-hdpi/tible.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/res/merged/debug/drawable-mdpi/buttonsoffoff.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/res/merged/debug/drawable-mdpi/buttonsoffon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/res/merged/debug/drawable-mdpi/buttonsonoff.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/res/merged/debug/drawable-mdpi/buttonsonon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/res/merged/debug/drawable-mdpi/haceb.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/res/merged/debug/drawable-mdpi/ic_action_about.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/res/merged/debug/drawable-mdpi/ic_action_bluetooth.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/res/merged/debug/drawable-mdpi/ic_action_cancel.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/res/merged/debug/drawable-mdpi/ic_action_refresh.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/res/merged/debug/drawable-mdpi/ic_action_settings.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/res/merged/debug/drawable-mdpi/reed_closed.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/res/merged/debug/drawable-mdpi/reed_open.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/res/merged/debug/drawable-mdpi/ti_stk_2c_pos_rgb_png.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/res/merged/debug/drawable-mdpi/tible.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/res/merged/debug/drawable-xhdpi/accelerometer_300.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/res/merged/debug/drawable-xhdpi/barometer_300.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/res/merged/debug/drawable-xhdpi/cloud_connected.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/res/merged/debug/drawable-xhdpi/cloud_connected_tx.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/res/merged/debug/drawable-xhdpi/cloud_disconnected.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/res/merged/debug/drawable-xhdpi/colorpicker_300.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/res/merged/debug/drawable-xhdpi/deviceinfo_300.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/res/merged/debug/drawable-xhdpi/gyroscope_300.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/res/merged/debug/drawable-xhdpi/humidity_300.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/res/merged/debug/drawable-xhdpi/ic_action_about.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/res/merged/debug/drawable-xhdpi/ic_action_bluetooth.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/res/merged/debug/drawable-xhdpi/ic_action_cancel.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/res/merged/debug/drawable-xhdpi/ic_action_refresh.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/res/merged/debug/drawable-xhdpi/ic_action_settings.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/res/merged/debug/drawable-xhdpi/irtemperature_300.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/res/merged/debug/drawable-xhdpi/magnetometer_300.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/res/merged/debug/drawable-xhdpi/sensortag2_300.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/res/merged/debug/drawable-xhdpi/sensortag2accelerometer_300.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/res/merged/debug/drawable-xhdpi/sensortag2barometer_300.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/res/merged/debug/drawable-xhdpi/sensortag2ccs_300.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/res/merged/debug/drawable-xhdpi/sensortag2cloudservice_300.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/res/merged/debug/drawable-xhdpi/sensortag2deviceinfo_300.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/res/merged/debug/drawable-xhdpi/sensortag2display_300.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/res/merged/debug/drawable-xhdpi/sensortag2gyroscope_300.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/res/merged/debug/drawable-xhdpi/sensortag2humidity_300.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/res/merged/debug/drawable-xhdpi/sensortag2irtemperature_300.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/res/merged/debug/drawable-xhdpi/sensortag2light_300.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/res/merged/debug/drawable-xhdpi/sensortag2lightsensor_300.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/res/merged/debug/drawable-xhdpi/sensortag2magnetometer_300.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/res/merged/debug/drawable-xhdpi/sensortag2motion_300.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/res/merged/debug/drawable-xhdpi/sensortag2oad_300.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/res/merged/debug/drawable-xhdpi/sensortag2rssi_300.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/res/merged/debug/drawable-xhdpi/sensortag2simplekeys_300.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/res/merged/debug/drawable-xhdpi/sensortag2temperature_300.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/res/merged/debug/drawable-xhdpi/sensortag_300.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/res/merged/debug/drawable-xhdpi/sensortag_magnetometer.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/res/merged/debug/drawable-xhdpi/sensortag_simplekeys.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/res/merged/debug/drawable-xhdpi/simplekeys_300.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/res/merged/debug/drawable-xhdpi/st2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/res/merged/debug/drawable-xhdpi/temperature_300.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/res/merged/debug/drawable-xhdpi/tible.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/res/merged/debug/drawable-xhdpi/unknown.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/res/merged/debug/drawable-xxhdpi/accelerometer_450.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/res/merged/debug/drawable-xxhdpi/barometer_450.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/res/merged/debug/drawable-xxhdpi/cloud_connected.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/res/merged/debug/drawable-xxhdpi/cloud_connected_tx.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/res/merged/debug/drawable-xxhdpi/cloud_disconnected.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/res/merged/debug/drawable-xxhdpi/colorpicker_450.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/res/merged/debug/drawable-xxhdpi/deviceinfo_450.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/res/merged/debug/drawable-xxhdpi/gyroscope_450.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/res/merged/debug/drawable-xxhdpi/humidity_450.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/res/merged/debug/drawable-xxhdpi/ic_action_about.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/res/merged/debug/drawable-xxhdpi/ic_action_bluetooth.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/res/merged/debug/drawable-xxhdpi/ic_action_cancel.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/res/merged/debug/drawable-xxhdpi/ic_action_refresh.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/res/merged/debug/drawable-xxhdpi/ic_action_settings.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/res/merged/debug/drawable-xxhdpi/irtemperature_450.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/res/merged/debug/drawable-xxhdpi/magnetometer_450.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/res/merged/debug/drawable-xxhdpi/sensortag2cloudservice_450.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/res/merged/debug/drawable-xxhdpi/sensortag2display_450.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/res/merged/debug/drawable-xxhdpi/sensortag2light_450.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/res/merged/debug/drawable-xxhdpi/sensortag2motion_450.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/res/merged/debug/drawable-xxhdpi/sensortag2oad_450.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/res/merged/debug/drawable-xxhdpi/sensortag_450.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/res/merged/debug/drawable-xxhdpi/simplekeys_450.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/res/merged/debug/drawable-xxhdpi/temperature_450.png" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.8/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/.gradle/2.8/taskArtifacts/cache.properties.lock" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/common/BluetoothLeService$1.class" afterPath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/common/BluetoothLeService$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/common/BluetoothLeService$2.class" afterPath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/common/BluetoothLeService$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/common/BluetoothLeService$3.class" afterPath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/common/BluetoothLeService$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/common/BluetoothLeService$LocalBinder.class" afterPath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/common/BluetoothLeService$LocalBinder.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/common/BluetoothLeService$bleRequest.class" afterPath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/common/BluetoothLeService$bleRequest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/common/BluetoothLeService$bleRequestOperation.class" afterPath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/common/BluetoothLeService$bleRequestOperation.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/common/BluetoothLeService$bleRequestStatus.class" afterPath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/common/BluetoothLeService$bleRequestStatus.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/common/BluetoothLeService$disconnectTimerTask.class" afterPath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/common/BluetoothLeService$disconnectTimerTask.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/common/BluetoothLeService.class" afterPath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/common/BluetoothLeService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/common/CloudProfileConfigurationDialogFragment$1.class" afterPath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/common/CloudProfileConfigurationDialogFragment$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/common/CloudProfileConfigurationDialogFragment$2.class" afterPath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/common/CloudProfileConfigurationDialogFragment$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/common/CloudProfileConfigurationDialogFragment.class" afterPath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/common/CloudProfileConfigurationDialogFragment.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/common/IBMIoTCloudProfile$1.class" afterPath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/common/IBMIoTCloudProfile$1.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/common/IBMIoTCloudProfile$2.class" afterPath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/common/IBMIoTCloudProfile$2.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/common/IBMIoTCloudProfile$3.class" afterPath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/common/IBMIoTCloudProfile$3.class" />
@@ -161,12 +36,53 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/common/IBMIoTCloudProfile$MQTTTimerTask.class" afterPath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/common/IBMIoTCloudProfile$MQTTTimerTask.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/common/IBMIoTCloudProfile$cloudConfig.class" afterPath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/common/IBMIoTCloudProfile$cloudConfig.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/common/IBMIoTCloudProfile.class" afterPath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/common/IBMIoTCloudProfile.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/sensortag/BuildConfig.class" afterPath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/sensortag/BuildConfig.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/common/IBMIoTCloudTableRow.class" afterPath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/common/IBMIoTCloudTableRow.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/sensortag/AboutDialog$1.class" afterPath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/sensortag/AboutDialog$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/sensortag/AboutDialog$OkListener.class" afterPath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/sensortag/AboutDialog$OkListener.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/sensortag/AboutDialog.class" afterPath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/sensortag/AboutDialog.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/sensortag/DeviceActivity$1$1$1$1.class" afterPath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/sensortag/DeviceActivity$1$1$1$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/sensortag/DeviceActivity$1$1$1$2.class" afterPath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/sensortag/DeviceActivity$1$1$1$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/sensortag/DeviceActivity$1$1$1.class" afterPath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/sensortag/DeviceActivity$1$1$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/sensortag/DeviceActivity$1$1$2.class" afterPath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/sensortag/DeviceActivity$1$1$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/sensortag/DeviceActivity$1$1$3.class" afterPath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/sensortag/DeviceActivity$1$1$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/sensortag/DeviceActivity$1$1$4.class" afterPath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/sensortag/DeviceActivity$1$1$4.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/sensortag/DeviceActivity$1$1$5.class" afterPath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/sensortag/DeviceActivity$1$1$5.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/sensortag/DeviceActivity$1$1$6.class" afterPath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/sensortag/DeviceActivity$1$1$6.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/sensortag/DeviceActivity$1$1$7.class" afterPath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/sensortag/DeviceActivity$1$1$7.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/sensortag/DeviceActivity$1$1.class" afterPath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/sensortag/DeviceActivity$1$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/sensortag/DeviceActivity$1.class" afterPath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/sensortag/DeviceActivity$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/sensortag/DeviceActivity$firmwareUpdateStart.class" afterPath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/sensortag/DeviceActivity$firmwareUpdateStart.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/sensortag/DeviceActivity.class" afterPath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/sensortag/DeviceActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/sensortag/FileActivity$1.class" afterPath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/sensortag/FileActivity$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/sensortag/FileActivity$2.class" afterPath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/sensortag/FileActivity$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/sensortag/FileActivity$FileAdapter.class" afterPath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/sensortag/FileActivity$FileAdapter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/sensortag/FileActivity.class" afterPath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/sensortag/FileActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/sensortag/FwUpdateActivity$1.class" afterPath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/sensortag/FwUpdateActivity$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/sensortag/FwUpdateActivity$2.class" afterPath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/sensortag/FwUpdateActivity$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/sensortag/FwUpdateActivity$3.class" afterPath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/sensortag/FwUpdateActivity$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/sensortag/FwUpdateActivity$ImgHdr.class" afterPath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/sensortag/FwUpdateActivity$ImgHdr.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/sensortag/FwUpdateActivity$OadTask$1.class" afterPath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/sensortag/FwUpdateActivity$OadTask$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/sensortag/FwUpdateActivity$OadTask.class" afterPath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/sensortag/FwUpdateActivity$OadTask.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/sensortag/FwUpdateActivity$ProgInfo.class" afterPath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/sensortag/FwUpdateActivity$ProgInfo.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/sensortag/FwUpdateActivity$ProgTimerTask.class" afterPath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/sensortag/FwUpdateActivity$ProgTimerTask.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/sensortag/FwUpdateActivity.class" afterPath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/sensortag/FwUpdateActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/sensortag/FwUpdateActivity_CC26xx$1.class" afterPath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/sensortag/FwUpdateActivity_CC26xx$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/sensortag/FwUpdateActivity_CC26xx$2.class" afterPath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/sensortag/FwUpdateActivity_CC26xx$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/sensortag/FwUpdateActivity_CC26xx$3.class" afterPath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/sensortag/FwUpdateActivity_CC26xx$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/sensortag/FwUpdateActivity_CC26xx$ImgHdr.class" afterPath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/sensortag/FwUpdateActivity_CC26xx$ImgHdr.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/sensortag/FwUpdateActivity_CC26xx$ProgInfo.class" afterPath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/sensortag/FwUpdateActivity_CC26xx$ProgInfo.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/sensortag/FwUpdateActivity_CC26xx$ProgTimerTask.class" afterPath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/sensortag/FwUpdateActivity_CC26xx$ProgTimerTask.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/sensortag/FwUpdateActivity_CC26xx.class" afterPath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/sensortag/FwUpdateActivity_CC26xx.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/sensortag/LicenseDialog$OkListener.class" afterPath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/sensortag/LicenseDialog$OkListener.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/sensortag/LicenseDialog.class" afterPath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/sensortag/LicenseDialog.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/sensortag/MainActivity$1.class" afterPath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/sensortag/MainActivity$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/sensortag/MainActivity$2.class" afterPath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/sensortag/MainActivity$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/sensortag/MainActivity$3.class" afterPath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/sensortag/MainActivity$3.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/sensortag/MainActivity$4.class" afterPath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/sensortag/MainActivity$4.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/sensortag/MainActivity$5$1.class" afterPath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/sensortag/MainActivity$5$1.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/sensortag/MainActivity$5.class" afterPath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/sensortag/MainActivity$5.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/sensortag/MainActivity.class" afterPath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/sensortag/MainActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/sensortag/PreferencesFragment.class" afterPath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/sensortag/PreferencesFragment.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/sensortag/Sensor$1.class" afterPath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/sensortag/Sensor$1.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/sensortag/Sensor$10.class" afterPath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/sensortag/Sensor$10.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/sensortag/Sensor$11.class" afterPath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/sensortag/Sensor$11.class" />
@@ -179,49 +95,113 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/sensortag/Sensor$8.class" afterPath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/sensortag/Sensor$8.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/sensortag/Sensor$9.class" afterPath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/sensortag/Sensor$9.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/sensortag/Sensor.class" afterPath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/sensortag/Sensor.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/sensortag/SensorTagAccelerometerProfile.class" afterPath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/sensortag/SensorTagAccelerometerProfile.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/sensortag/SensorTagLuxometerProfile.class" afterPath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/sensortag/SensorTagLuxometerProfile.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/sensortag/SensorTagMovementTableRow$1.class" afterPath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/sensortag/SensorTagMovementTableRow$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/sensortag/SensorTagMovementTableRow$2.class" afterPath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/sensortag/SensorTagMovementTableRow$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/sensortag/SensorTagMovementTableRow$3.class" afterPath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/sensortag/SensorTagMovementTableRow$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/sensortag/SensorTagMovementTableRow$4.class" afterPath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/sensortag/SensorTagMovementTableRow$4.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/sensortag/SensorTagMovementTableRow$5.class" afterPath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/sensortag/SensorTagMovementTableRow$5.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/sensortag/SensorTagMovementTableRow$6.class" afterPath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/sensortag/SensorTagMovementTableRow$6.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/sensortag/SensorTagMovementTableRow$7.class" afterPath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/sensortag/SensorTagMovementTableRow$7.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/sensortag/SensorTagMovementTableRow$8.class" afterPath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/sensortag/SensorTagMovementTableRow$8.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/sensortag/SensorTagMovementTableRow$9.class" afterPath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/sensortag/SensorTagMovementTableRow$9.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/sensortag/SensorTagMovementTableRow.class" afterPath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/sensortag/SensorTagMovementTableRow.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/sensortag/SensorTagSimpleKeysProfile.class" afterPath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/sensortag/SensorTagSimpleKeysProfile.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/sensortag/ViewPagerActivity$1.class" afterPath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/sensortag/ViewPagerActivity$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/sensortag/ViewPagerActivity$2.class" afterPath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/sensortag/ViewPagerActivity$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/sensortag/ViewPagerActivity$3.class" afterPath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/sensortag/ViewPagerActivity$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/sensortag/ViewPagerActivity$SectionsPagerAdapter.class" afterPath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/sensortag/ViewPagerActivity$SectionsPagerAdapter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/sensortag/ViewPagerActivity.class" afterPath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/sensortag/ViewPagerActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/sensortag/fwSelectorView$1.class" afterPath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/sensortag/fwSelectorView$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/sensortag/fwSelectorView.class" afterPath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/sensortag/fwSelectorView.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/ti/profiles/TILampControlDialogFragment$1.class" afterPath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/ti/profiles/TILampControlDialogFragment$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/ti/profiles/TILampControlDialogFragment$2.class" afterPath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/ti/profiles/TILampControlDialogFragment$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/ti/profiles/TILampControlDialogFragment.class" afterPath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/ti/profiles/TILampControlDialogFragment.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/ti/profiles/TILampControlProfile$1.class" afterPath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/ti/profiles/TILampControlProfile$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/ti/profiles/TILampControlProfile$2.class" afterPath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/ti/profiles/TILampControlProfile$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/ti/profiles/TILampControlProfile$updateCompoundTask.class" afterPath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/ti/profiles/TILampControlProfile$updateCompoundTask.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/ti/profiles/TILampControlProfile.class" afterPath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/ti/profiles/TILampControlProfile.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/ti/profiles/TILampControlProfileTableRow.class" afterPath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/ti/profiles/TILampControlProfileTableRow.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/ti/profiles/TIOADProfile$1.class" afterPath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/ti/profiles/TIOADProfile$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/ti/profiles/TIOADProfile$2.class" afterPath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/ti/profiles/TIOADProfile$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/ti/profiles/TIOADProfile.class" afterPath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/ti/profiles/TIOADProfile.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/util/GenericCharacteristicTableRow$1.class" afterPath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/util/GenericCharacteristicTableRow$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/util/GenericCharacteristicTableRow$10.class" afterPath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/util/GenericCharacteristicTableRow$10.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/util/GenericCharacteristicTableRow$11.class" afterPath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/util/GenericCharacteristicTableRow$11.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/util/GenericCharacteristicTableRow$12.class" afterPath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/util/GenericCharacteristicTableRow$12.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/util/GenericCharacteristicTableRow$13.class" afterPath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/util/GenericCharacteristicTableRow$13.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/util/GenericCharacteristicTableRow$14.class" afterPath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/util/GenericCharacteristicTableRow$14.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/util/GenericCharacteristicTableRow$15.class" afterPath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/util/GenericCharacteristicTableRow$15.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/util/GenericCharacteristicTableRow$16.class" afterPath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/util/GenericCharacteristicTableRow$16.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/util/GenericCharacteristicTableRow$2.class" afterPath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/util/GenericCharacteristicTableRow$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/util/GenericCharacteristicTableRow$3.class" afterPath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/util/GenericCharacteristicTableRow$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/util/GenericCharacteristicTableRow$4.class" afterPath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/util/GenericCharacteristicTableRow$4.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/util/GenericCharacteristicTableRow$5.class" afterPath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/util/GenericCharacteristicTableRow$5.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/util/GenericCharacteristicTableRow$6.class" afterPath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/util/GenericCharacteristicTableRow$6.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/util/GenericCharacteristicTableRow$7.class" afterPath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/util/GenericCharacteristicTableRow$7.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/util/GenericCharacteristicTableRow$8.class" afterPath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/util/GenericCharacteristicTableRow$8.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/util/GenericCharacteristicTableRow$9.class" afterPath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/util/GenericCharacteristicTableRow$9.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/util/GenericCharacteristicTableRow.class" afterPath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/util/GenericCharacteristicTableRow.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/util/firmwareEntryTableRow$1.class" afterPath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/util/firmwareEntryTableRow$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/util/firmwareEntryTableRow.class" afterPath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/util/firmwareEntryTableRow.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/res/resources-debug-androidTest.ap_" afterPath="$PROJECT_DIR$/BleSensorTag/build/intermediates/res/resources-debug-androidTest.ap_" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/res/resources-debug.ap_" afterPath="$PROJECT_DIR$/BleSensorTag/build/intermediates/res/resources-debug.ap_" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/build/outputs/apk/BleSensorTag-debug-unaligned.apk" afterPath="$PROJECT_DIR$/BleSensorTag/build/outputs/apk/BleSensorTag-debug-unaligned.apk" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/build/outputs/apk/BleSensorTag-debug.apk" afterPath="$PROJECT_DIR$/BleSensorTag/build/outputs/apk/BleSensorTag-debug.apk" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/gradle.xml" afterPath="$PROJECT_DIR$/.idea/gradle.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/support_v4_19_1_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/support_v4_19_1_0.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/BleSensorTag.iml" afterPath="$PROJECT_DIR$/BleSensorTag/BleSensorTag.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/build/generated/source/buildConfig/debug/com/example/ti/ble/sensortag/BuildConfig.java" afterPath="$PROJECT_DIR$/BleSensorTag/build/generated/source/buildConfig/debug/com/example/ti/ble/sensortag/BuildConfig.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/build.gradle" afterPath="$PROJECT_DIR$/BleSensorTag/build.gradle" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/manifest/androidTest/debug/AndroidManifest.xml" afterPath="$PROJECT_DIR$/BleSensorTag/build/intermediates/manifest/androidTest/debug/AndroidManifest.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/manifests/full/debug/AndroidManifest.xml" afterPath="$PROJECT_DIR$/BleSensorTag/build/intermediates/manifests/full/debug/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/res/merged/debug/layout/activity_file.xml" afterPath="$PROJECT_DIR$/BleSensorTag/build/intermediates/res/merged/debug/layout/activity_file.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/res/merged/debug/layout/activity_fwupdate.xml" afterPath="$PROJECT_DIR$/BleSensorTag/build/intermediates/res/merged/debug/layout/activity_fwupdate.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/res/merged/debug/layout/cloud_config_dialog.xml" afterPath="$PROJECT_DIR$/BleSensorTag/build/intermediates/res/merged/debug/layout/cloud_config_dialog.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/res/merged/debug/layout/dialog_about.xml" afterPath="$PROJECT_DIR$/BleSensorTag/build/intermediates/res/merged/debug/layout/dialog_about.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/res/merged/debug/layout/dialog_license.xml" afterPath="$PROJECT_DIR$/BleSensorTag/build/intermediates/res/merged/debug/layout/dialog_license.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/res/merged/debug/layout/element_characteristic.xml" afterPath="$PROJECT_DIR$/BleSensorTag/build/intermediates/res/merged/debug/layout/element_characteristic.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/res/merged/debug/layout/element_device.xml" afterPath="$PROJECT_DIR$/BleSensorTag/build/intermediates/res/merged/debug/layout/element_device.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/res/merged/debug/layout/element_file.xml" afterPath="$PROJECT_DIR$/BleSensorTag/build/intermediates/res/merged/debug/layout/element_file.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/res/merged/debug/layout/fragment_help.xml" afterPath="$PROJECT_DIR$/BleSensorTag/build/intermediates/res/merged/debug/layout/fragment_help.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/res/merged/debug/layout/fragment_pager.xml" afterPath="$PROJECT_DIR$/BleSensorTag/build/intermediates/res/merged/debug/layout/fragment_pager.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/res/merged/debug/layout/fragment_scan.xml" afterPath="$PROJECT_DIR$/BleSensorTag/build/intermediates/res/merged/debug/layout/fragment_scan.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/res/merged/debug/layout/frame_progress.xml" afterPath="$PROJECT_DIR$/BleSensorTag/build/intermediates/res/merged/debug/layout/frame_progress.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/res/merged/debug/layout/fw_selector.xml" afterPath="$PROJECT_DIR$/BleSensorTag/build/intermediates/res/merged/debug/layout/fw_selector.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/res/merged/debug/layout/generic_services_browser.xml" afterPath="$PROJECT_DIR$/BleSensorTag/build/intermediates/res/merged/debug/layout/generic_services_browser.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/res/merged/debug/layout/lamp_control.xml" afterPath="$PROJECT_DIR$/BleSensorTag/build/intermediates/res/merged/debug/layout/lamp_control.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/res/merged/debug/layout/oad_dialog.xml" afterPath="$PROJECT_DIR$/BleSensorTag/build/intermediates/res/merged/debug/layout/oad_dialog.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/res/merged/debug/menu/device_activity_actions.xml" afterPath="$PROJECT_DIR$/BleSensorTag/build/intermediates/res/merged/debug/menu/device_activity_actions.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/res/merged/debug/menu/main_activity_actions.xml" afterPath="$PROJECT_DIR$/BleSensorTag/build/intermediates/res/merged/debug/menu/main_activity_actions.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/res/merged/debug/values/values.xml" afterPath="$PROJECT_DIR$/BleSensorTag/build/intermediates/res/merged/debug/values/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/res/merged/debug/xml/firmware_list.xml" afterPath="$PROJECT_DIR$/BleSensorTag/build/intermediates/res/merged/debug/xml/firmware_list.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/res/merged/debug/xml/gatt_uuid.xml" afterPath="$PROJECT_DIR$/BleSensorTag/build/intermediates/res/merged/debug/xml/gatt_uuid.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/res/merged/debug/xml/list_gradient.xml" afterPath="$PROJECT_DIR$/BleSensorTag/build/intermediates/res/merged/debug/xml/list_gradient.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/res/merged/debug/xml/popup.xml" afterPath="$PROJECT_DIR$/BleSensorTag/build/intermediates/res/merged/debug/xml/popup.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/res/merged/debug/xml/preferences.xml" afterPath="$PROJECT_DIR$/BleSensorTag/build/intermediates/res/merged/debug/xml/preferences.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/build/outputs/logs/manifest-merger-debug-report.txt" afterPath="$PROJECT_DIR$/BleSensorTag/build/outputs/logs/manifest-merger-debug-report.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/BleSensorTag/src/main/AndroidManifest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/src/main/java/com/example/ti/ble/btsig/profiles/DeviceInformationServiceProfile.java" afterPath="$PROJECT_DIR$/BleSensorTag/src/main/java/com/example/ti/ble/btsig/profiles/DeviceInformationServiceProfile.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/src/main/java/com/example/ti/ble/common/BluetoothLeService.java" afterPath="$PROJECT_DIR$/BleSensorTag/src/main/java/com/example/ti/ble/common/BluetoothLeService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/src/main/java/com/example/ti/ble/common/CloudProfileConfigurationDialogFragment.java" afterPath="$PROJECT_DIR$/BleSensorTag/src/main/java/com/example/ti/ble/common/CloudProfileConfigurationDialogFragment.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/src/main/java/com/example/ti/ble/common/GattInfo.java" afterPath="$PROJECT_DIR$/BleSensorTag/src/main/java/com/example/ti/ble/common/GattInfo.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/src/main/java/com/example/ti/ble/common/GenericBluetoothProfile.java" afterPath="$PROJECT_DIR$/BleSensorTag/src/main/java/com/example/ti/ble/common/GenericBluetoothProfile.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/src/main/java/com/example/ti/ble/common/IBMIoTCloudProfile.java" afterPath="$PROJECT_DIR$/BleSensorTag/src/main/java/com/example/ti/ble/common/IBMIoTCloudProfile.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/src/main/java/com/example/ti/ble/common/IBMIoTCloudTableRow.java" afterPath="$PROJECT_DIR$/BleSensorTag/src/main/java/com/example/ti/ble/common/IBMIoTCloudTableRow.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/src/main/java/com/example/ti/ble/sensortag/AboutDialog.java" afterPath="$PROJECT_DIR$/BleSensorTag/src/main/java/com/example/ti/ble/sensortag/AboutDialog.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/src/main/java/com/example/ti/ble/sensortag/DeviceActivity.java" afterPath="$PROJECT_DIR$/BleSensorTag/src/main/java/com/example/ti/ble/sensortag/DeviceActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/src/main/java/com/example/ti/ble/sensortag/FileActivity.java" afterPath="$PROJECT_DIR$/BleSensorTag/src/main/java/com/example/ti/ble/sensortag/FileActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/src/main/java/com/example/ti/ble/sensortag/FwUpdateActivity.java" afterPath="$PROJECT_DIR$/BleSensorTag/src/main/java/com/example/ti/ble/sensortag/FwUpdateActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/src/main/java/com/example/ti/ble/sensortag/FwUpdateActivity_CC26xx.java" afterPath="$PROJECT_DIR$/BleSensorTag/src/main/java/com/example/ti/ble/sensortag/FwUpdateActivity_CC26xx.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/src/main/java/com/example/ti/ble/sensortag/LicenseDialog.java" afterPath="$PROJECT_DIR$/BleSensorTag/src/main/java/com/example/ti/ble/sensortag/LicenseDialog.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/src/main/java/com/example/ti/ble/sensortag/MainActivity.java" afterPath="$PROJECT_DIR$/BleSensorTag/src/main/java/com/example/ti/ble/sensortag/MainActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/src/main/java/com/example/ti/ble/sensortag/PreferencesFragment.java" afterPath="$PROJECT_DIR$/BleSensorTag/src/main/java/com/example/ti/ble/sensortag/PreferencesFragment.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/src/main/java/com/example/ti/ble/sensortag/PreferencesListener.java" afterPath="$PROJECT_DIR$/BleSensorTag/src/main/java/com/example/ti/ble/sensortag/PreferencesListener.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/src/main/java/com/example/ti/ble/sensortag/ScanView.java" afterPath="$PROJECT_DIR$/BleSensorTag/src/main/java/com/example/ti/ble/sensortag/ScanView.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/src/main/java/com/example/ti/ble/sensortag/Sensor.java" afterPath="$PROJECT_DIR$/BleSensorTag/src/main/java/com/example/ti/ble/sensortag/Sensor.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build.gradle" afterPath="$PROJECT_DIR$/build.gradle" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/src/main/java/com/example/ti/ble/sensortag/SensorTagAccelerometerProfile.java" afterPath="$PROJECT_DIR$/BleSensorTag/src/main/java/com/example/ti/ble/sensortag/SensorTagAccelerometerProfile.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/src/main/java/com/example/ti/ble/sensortag/SensorTagAmbientTemperatureProfile.java" afterPath="$PROJECT_DIR$/BleSensorTag/src/main/java/com/example/ti/ble/sensortag/SensorTagAmbientTemperatureProfile.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/src/main/java/com/example/ti/ble/sensortag/SensorTagBarometerProfile.java" afterPath="$PROJECT_DIR$/BleSensorTag/src/main/java/com/example/ti/ble/sensortag/SensorTagBarometerProfile.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/src/main/java/com/example/ti/ble/sensortag/SensorTagGatt.java" afterPath="$PROJECT_DIR$/BleSensorTag/src/main/java/com/example/ti/ble/sensortag/SensorTagGatt.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/src/main/java/com/example/ti/ble/sensortag/SensorTagHumidityProfile.java" afterPath="$PROJECT_DIR$/BleSensorTag/src/main/java/com/example/ti/ble/sensortag/SensorTagHumidityProfile.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/src/main/java/com/example/ti/ble/sensortag/SensorTagIRTemperatureProfile.java" afterPath="$PROJECT_DIR$/BleSensorTag/src/main/java/com/example/ti/ble/sensortag/SensorTagIRTemperatureProfile.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/src/main/java/com/example/ti/ble/sensortag/SensorTagLuxometerProfile.java" afterPath="$PROJECT_DIR$/BleSensorTag/src/main/java/com/example/ti/ble/sensortag/SensorTagLuxometerProfile.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/src/main/java/com/example/ti/ble/sensortag/SensorTagMovementProfile.java" afterPath="$PROJECT_DIR$/BleSensorTag/src/main/java/com/example/ti/ble/sensortag/SensorTagMovementProfile.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/src/main/java/com/example/ti/ble/sensortag/SensorTagMovementTableRow.java" afterPath="$PROJECT_DIR$/BleSensorTag/src/main/java/com/example/ti/ble/sensortag/SensorTagMovementTableRow.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/src/main/java/com/example/ti/ble/sensortag/SensorTagSimpleKeysProfile.java" afterPath="$PROJECT_DIR$/BleSensorTag/src/main/java/com/example/ti/ble/sensortag/SensorTagSimpleKeysProfile.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/src/main/java/com/example/ti/ble/sensortag/SensorTagSimpleKeysTableRow.java" afterPath="$PROJECT_DIR$/BleSensorTag/src/main/java/com/example/ti/ble/sensortag/SensorTagSimpleKeysTableRow.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/src/main/java/com/example/ti/ble/sensortag/ViewPagerActivity.java" afterPath="$PROJECT_DIR$/BleSensorTag/src/main/java/com/example/ti/ble/sensortag/ViewPagerActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/src/main/java/com/example/ti/ble/sensortag/fwSelectorView.java" afterPath="$PROJECT_DIR$/BleSensorTag/src/main/java/com/example/ti/ble/sensortag/fwSelectorView.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/src/main/java/com/example/ti/ble/ti/profiles/TILampControlDialogFragment.java" afterPath="$PROJECT_DIR$/BleSensorTag/src/main/java/com/example/ti/ble/ti/profiles/TILampControlDialogFragment.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/src/main/java/com/example/ti/ble/ti/profiles/TILampControlProfile.java" afterPath="$PROJECT_DIR$/BleSensorTag/src/main/java/com/example/ti/ble/ti/profiles/TILampControlProfile.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/src/main/java/com/example/ti/ble/ti/profiles/TILampControlProfileTableRow.java" afterPath="$PROJECT_DIR$/BleSensorTag/src/main/java/com/example/ti/ble/ti/profiles/TILampControlProfileTableRow.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/src/main/java/com/example/ti/ble/ti/profiles/TIOADProfile.java" afterPath="$PROJECT_DIR$/BleSensorTag/src/main/java/com/example/ti/ble/ti/profiles/TIOADProfile.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/src/main/java/com/example/ti/util/CustomTimer.java" afterPath="$PROJECT_DIR$/BleSensorTag/src/main/java/com/example/ti/util/CustomTimer.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/src/main/java/com/example/ti/util/GenericCharacteristicTableRow.java" afterPath="$PROJECT_DIR$/BleSensorTag/src/main/java/com/example/ti/util/GenericCharacteristicTableRow.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/src/main/java/com/example/ti/util/SparkLineView.java" afterPath="$PROJECT_DIR$/BleSensorTag/src/main/java/com/example/ti/util/SparkLineView.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/src/main/java/com/example/ti/util/firmwareEntryTableRow.java" afterPath="$PROJECT_DIR$/BleSensorTag/src/main/java/com/example/ti/util/firmwareEntryTableRow.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/src/main/res/layout/element_device.xml" afterPath="$PROJECT_DIR$/BleSensorTag/src/main/res/layout/element_device.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/src/main/res/layout/fragment_pager.xml" afterPath="$PROJECT_DIR$/BleSensorTag/src/main/res/layout/fragment_pager.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/src/main/res/xml/preferences.xml" afterPath="$PROJECT_DIR$/BleSensorTag/src/main/res/xml/preferences.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" afterPath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" />
     </list>
     <ignored path="sensortag20.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -254,12 +234,35 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="ViewPagerActivity.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/BleSensorTag/src/main/java/com/example/ti/ble/sensortag/ViewPagerActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="72" column="13" selection-start-line="72" selection-start-column="13" selection-end-line="72" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="GenericBluetoothProfile.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/BleSensorTag/src/main/java/com/example/ti/ble/common/GenericBluetoothProfile.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="162" column="10" selection-start-line="162" selection-start-column="10" selection-end-line="162" selection-end-column="10" />
+              <caret line="114" column="8" selection-start-line="114" selection-start-column="8" selection-end-line="114" selection-end-column="8" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DeviceActivity.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/BleSensorTag/src/main/java/com/example/ti/ble/sensortag/DeviceActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-0.3207547">
+              <caret line="501" column="60" selection-start-line="501" selection-start-column="60" selection-end-line="501" selection-end-column="60" />
+              <folding>
+                <element signature="e#0#3203#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -268,56 +271,58 @@
         <entry file="file://$PROJECT_DIR$/BleSensorTag/src/main/java/com/example/ti/ble/sensortag/Sensor.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="92" column="30" selection-start-line="92" selection-start-column="30" selection-end-line="92" selection-end-column="30" />
+              <caret line="92" column="20" selection-start-line="92" selection-start-column="20" selection-end-line="92" selection-end-column="20" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PreferencesFragment.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/BleSensorTag/src/main/java/com/example/ti/ble/sensortag/PreferencesFragment.java">
+      <file leaf-file-name="SensorTagTestProfile.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/BleSensorTag/src/main/java/com/example/ti/ble/sensortag/SensorTagTestProfile.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.29589632">
-              <caret line="64" column="13" selection-start-line="64" selection-start-column="13" selection-end-line="64" selection-end-column="13" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="86" column="30" selection-start-line="86" selection-start-column="16" selection-end-line="86" selection-end-column="30" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="IBMIoTCloudTableRow.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/BleSensorTag/src/main/java/com/example/ti/ble/common/IBMIoTCloudTableRow.java">
+      <file leaf-file-name="SensorTagUtil.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/BleSensorTag/src/main/java/com/example/ti/ble/sensortag/SensorTagUtil.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="73" column="13" selection-start-line="73" selection-start-column="13" selection-end-line="73" selection-end-column="13" />
+              <caret line="57" column="13" selection-start-line="57" selection-start-column="13" selection-end-line="57" selection-end-column="13" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="IBMIoTCloudProfile.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/BleSensorTag/src/main/java/com/example/ti/ble/common/IBMIoTCloudProfile.java">
+      <file leaf-file-name="BluetoothGATTDefines.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/BleSensorTag/src/main/java/com/example/ti/ble/common/BluetoothGATTDefines.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="107" column="29" selection-start-line="107" selection-start-column="29" selection-end-line="107" selection-end-column="29" />
-              <folding>
-                <element signature="e#0#3162#0" expanded="true" />
-                <element signature="imports" expanded="true" />
-              </folding>
+              <caret line="57" column="13" selection-start-line="57" selection-start-column="13" selection-end-line="57" selection-end-column="13" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MainActivity.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/BleSensorTag/src/main/java/com/example/ti/ble/sensortag/MainActivity.java">
+      <file leaf-file-name="BluetoothLeService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/BleSensorTag/src/main/java/com/example/ti/ble/common/BluetoothLeService.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="422" column="24" selection-start-line="422" selection-start-column="16" selection-end-line="422" selection-end-column="24" />
-              <folding>
-                <element signature="e#0#3216#0" expanded="true" />
-                <element signature="imports" expanded="true" />
-                <element signature="e#13187#13251#0" expanded="true" />
-                <element signature="e#13250#13251#0" expanded="true" />
-              </folding>
+              <caret line="781" column="17" selection-start-line="781" selection-start-column="17" selection-end-line="781" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CloudProfileConfigurationDialogFragment.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/BleSensorTag/src/main/java/com/example/ti/ble/common/CloudProfileConfigurationDialogFragment.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="156" column="29" selection-start-line="156" selection-start-column="29" selection-end-line="156" selection-end-column="29" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -1599,7 +1604,7 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$" value="4368874697229" />
+        <entry key="$PROJECT_DIR$" value="4377735717467" />
         <entry key="G:\Programas Juan Carlos\Android\sensortag20" value="4360411887000" />
       </map>
     </option>
@@ -1887,9 +1892,11 @@
         <option value="$PROJECT_DIR$/BleSensorTag/src/main/java/com/example/ti/ble/common/GenericBluetoothProfile.java" />
         <option value="$PROJECT_DIR$/BleSensorTag/src/main/java/com/example/ti/ble/sensortag/Sensor.java" />
         <option value="$PROJECT_DIR$/BleSensorTag/src/main/java/com/example/ti/ble/sensortag/DeviceActivity.java" />
-        <option value="$PROJECT_DIR$/BleSensorTag/src/main/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/BleSensorTag/src/main/java/com/example/ti/ble/common/IBMIoTCloudProfile.java" />
         <option value="$PROJECT_DIR$/BleSensorTag/src/main/java/com/example/ti/ble/sensortag/MainActivity.java" />
+        <option value="$PROJECT_DIR$/BleSensorTag/src/main/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/BleSensorTag/build.gradle" />
+        <option value="$PROJECT_DIR$/BleSensorTag/src/main/java/com/example/ti/ble/common/BleDeviceInfo.java" />
       </list>
     </option>
   </component>
@@ -1897,7 +1904,7 @@
     <option name="x" value="54" />
     <option name="y" value="-8" />
     <option name="width" value="1320" />
-    <option name="height" value="772" />
+    <option name="height" value="784" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -1924,6 +1931,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="ProjectPane" />
       <pane id="AndroidView">
         <subPane>
           <PATH>
@@ -1962,6 +1970,32 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="ti" />
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="util" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sensortag20" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BleSensorTag" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ti" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sound" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -2074,16 +2108,37 @@
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ti" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="audio" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sensortag20" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BleSensorTag" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="manifests" />
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidManifestsGroupNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="ProjectPane" />
-      <pane id="PackagesPane" />
-      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -2092,17 +2147,33 @@
     <property name="recentsLimit" value="5" />
     <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_SERIALS" value="TA0210BDCR" />
     <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_AVD" value="Nexus_5_API_23_x86" />
-    <property name="device.picker.selection" value="0123456789ABCDEF" />
+    <property name="device.picker.selection" value="SH391W900808" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="139" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="139" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="139" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder2" value="2" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="813" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder3" value="3" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="139" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder0" value="0" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth1" value="138" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder1" value="1" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth2" value="139" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder2" value="2" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="814" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="G:\Programas Juan Carlos\Android\sensortag20\BleSensorTag\src\main\java\com\example\ti" />
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.example.ti" />
     </key>
     <key name="android.template.packageName">
       <recent name="com.example.ti.audio" />
     </key>
-    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="com.example.ti" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\Programas Juan Carlos\Android\sensortag20\BleSensorTag\src\main\java\com\example\ti" />
     </key>
   </component>
   <component name="RunManager" selected="Android Application.BleSensorTag">
@@ -2212,8 +2283,45 @@
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="JUnitTestDiscovery" factoryName="JUnit Test Discovery" changeList="All">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
     <configuration default="true" type="JarApplication" factoryName="JAR Application">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="Java Scratch" factoryName="Java Scratch">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="SCRATCH_FILE_ID" value="0" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
       <envs />
       <method />
     </configuration>
@@ -2239,6 +2347,34 @@
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="TestNGTestDiscovery" factoryName="TestNG Test Discovery" changeList="All">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
       <option name="OUTPUT_DIRECTORY" />
       <option name="ANNOTATION_TYPE" />
       <option name="ENV_VARIABLES" />
@@ -2333,29 +2469,31 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="54" y="-8" width="1320" height="772" extended-state="0" />
+    <frame x="54" y="-8" width="1320" height="784" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3257329" sideWeight="0.4968254" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32428116" sideWeight="0.4968254" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Android Model" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20032573" sideWeight="0.48412699" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.44728434" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.442492" sideWeight="0.48412699" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6698565" sideWeight="0.515873" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32854864" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.7923323" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.64169383" sideWeight="0.4968254" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32854864" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2436508" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32410422" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.399361" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3226837" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" x="154" y="92" width="1120" height="572" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -2363,10 +2501,8 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936507" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.44878048" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -2391,108 +2527,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/BleSensorTag/src/main/res/layout/activity_fwupdate.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="33.41379">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BleSensorTag/src/main/res/layout/activity_file.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BleSensorTag/src/main/res/layout/dialog_about.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BleSensorTag/src/main/res/layout/dialog_license.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BleSensorTag/src/main/res/layout/element_characteristic.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BleSensorTag/src/main/res/drawable-hdpi/list_item_normal.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BleSensorTag/src/main/res/layout/element_device.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BleSensorTag/src/main/java/com/example/ti/util/firmwareEntryTableRow.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="67" column="13" selection-start-line="67" selection-start-column="13" selection-end-line="67" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BleSensorTag/src/main/java/com/example/ti/util/firmwareEntriesParser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="64" column="13" selection-start-line="64" selection-start-column="13" selection-end-line="64" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BleSensorTag/src/main/java/com/example/ti/util/PreferenceWR.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="60" column="13" selection-start-line="60" selection-start-column="13" selection-end-line="60" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BleSensorTag/src/main/java/com/example/ti/ble/ti/profiles/TILampControlDialogFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="57" column="36" selection-start-line="57" selection-start-column="17" selection-end-line="57" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BleSensorTag/src/main/java/com/example/ti/ble/common/BleDeviceInfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="56" column="13" selection-start-line="56" selection-start-column="13" selection-end-line="56" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/BleSensorTag/src/main/java/com/example/ti/ble/sensortag/SensorTagBarometerProfile.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -2511,13 +2545,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.2681388">
           <caret line="60" column="33" selection-start-line="60" selection-start-column="13" selection-end-line="60" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BleSensorTag/src/main/java/com/example/ti/ble/btsig/profiles/DeviceInformationServiceTableRow.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.0788646">
-          <caret line="62" column="8" selection-start-line="62" selection-start-column="8" selection-end-line="62" selection-end-column="8" />
         </state>
       </provider>
     </entry>
@@ -2546,13 +2573,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="242" column="45" selection-start-line="242" selection-start-column="45" selection-end-line="242" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BleSensorTag/src/main/java/com/example/ti/ble/sensortag/SensorTagAccelerometerProfile.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.727907">
-          <caret line="79" column="94" selection-start-line="79" selection-start-column="76" selection-end-line="79" selection-end-column="94" />
         </state>
       </provider>
     </entry>
@@ -2596,73 +2616,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/BleSensorTag/src/main/java/com/example/ti/ble/sensortag/DeviceView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.5522387">
-          <caret line="65" column="17" selection-start-line="65" selection-start-column="17" selection-end-line="65" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BleSensorTag/src/main/java/com/example/ti/ble/sensortag/FwUpdateActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.358209">
-          <caret line="89" column="13" selection-start-line="89" selection-start-column="13" selection-end-line="89" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BleSensorTag/src/main/java/com/example/ti/ble/btsig/profiles/DeviceInformationServiceProfile.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2681388">
-          <caret line="69" column="56" selection-start-line="69" selection-start-column="53" selection-end-line="69" selection-end-column="76" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BleSensorTag/src/main/java/com/example/ti/ble/sensortag/SensorTagApplicationClass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.5520505">
-          <caret line="128" column="28" selection-start-line="128" selection-start-column="16" selection-end-line="128" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BleSensorTag/src/main/java/com/example/ti/ble/sensortag/FileActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.94323874">
-          <caret line="153" column="4" selection-start-line="153" selection-start-column="4" selection-end-line="153" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BleSensorTag/src/main/java/com/example/ti/ble/sensortag/SensorTagGatt.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="58" column="13" selection-start-line="58" selection-start-column="13" selection-end-line="58" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BleSensorTag/src/main/java/com/example/ti/ble/sensortag/SensorTagUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.051829267">
-          <caret line="57" column="13" selection-start-line="57" selection-start-column="13" selection-end-line="57" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BleSensorTag/src/main/java/com/example/ti/ble/common/BluetoothLeService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.640244">
-          <caret line="771" column="21" selection-start-line="771" selection-start-column="16" selection-end-line="771" selection-end-column="21" />
-          <folding>
-            <element signature="e#0#3222#0" expanded="false" />
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BleSensorTag/src/main/java/com/example/ti/ble/sensortag/SensorTagTestProfile.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6219512">
-          <caret line="86" column="30" selection-start-line="86" selection-start-column="16" selection-end-line="86" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/BleSensorTag/src/main/java/com/example/ti/ble/sensortag/SensorTagLuxometerProfile.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -2677,32 +2630,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/BleSensorTag/src/main/java/com/example/ti/ble/sensortag/AboutDialog.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.08928572">
-          <caret line="132" column="25" selection-start-line="132" selection-start-column="25" selection-end-line="137" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BleSensorTag/src/main/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.67025864">
-          <caret line="90" column="18" selection-start-line="90" selection-start-column="18" selection-end-line="90" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BleSensorTag/src/main/java/com/example/ti/ble/sensortag/DeviceActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.48466256">
-          <caret line="125" column="19" selection-start-line="125" selection-start-column="18" selection-end-line="125" selection-end-column="19" />
-          <folding>
-            <element signature="e#0#3203#0" expanded="true" />
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/BleSensorTag/src/main/java/com/example/ti/ble/sensortag/SensorTagIRTemperatureProfile.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.047887325">
@@ -2711,43 +2638,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/BleSensorTag/src/main/java/com/example/ti/ble/sensortag/MainActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="422" column="24" selection-start-line="422" selection-start-column="16" selection-end-line="422" selection-end-column="24" />
-          <folding>
-            <element signature="e#0#3216#0" expanded="true" />
-            <element signature="imports" expanded="true" />
-            <element signature="e#13187#13251#0" expanded="true" />
-            <element signature="e#13250#13251#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BleSensorTag/src/main/java/com/example/ti/ble/common/IBMIoTCloudTableRow.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="73" column="13" selection-start-line="73" selection-start-column="13" selection-end-line="73" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/BleSensorTag/src/main/java/com/example/ti/ble/common/HelpView.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.18358532">
           <caret line="61" column="13" selection-start-line="61" selection-start-column="13" selection-end-line="61" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BleSensorTag/src/main/java/com/example/ti/ble/common/IBMIoTCloudProfile.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="107" column="29" selection-start-line="107" selection-start-column="29" selection-end-line="107" selection-end-column="29" />
-          <folding>
-            <element signature="e#0#3162#0" expanded="true" />
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2759,18 +2653,250 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/BleSensorTag/src/main/java/com/example/ti/ble/common/CloudProfileConfigurationDialogFragment.java">
+    <entry file="file://$PROJECT_DIR$/BleSensorTag/src/main/java/com/example/ti/ble/common/IBMIoTCloudTableRow.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-11.311579">
-          <caret line="84" column="13" selection-start-line="84" selection-start-column="13" selection-end-line="84" selection-end-column="13" />
+        <state vertical-scroll-proportion="0.035940804">
+          <caret line="73" column="13" selection-start-line="73" selection-start-column="13" selection-end-line="73" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/BleSensorTag/src/main/java/com/example/ti/ble/common/GenericBluetoothProfile.java">
+    <entry file="file://$PROJECT_DIR$/BleSensorTag/src/main/java/com/example/ti/ble/common/IBMIoTCloudProfile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.035940804">
+          <caret line="107" column="29" selection-start-line="107" selection-start-column="29" selection-end-line="107" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#3162#0" expanded="false" />
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BleSensorTag/src/main/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.576923">
+          <caret line="7" column="33" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="162" column="10" selection-start-line="162" selection-start-column="10" selection-end-line="162" selection-end-column="10" />
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BleSensorTag/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/settings.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BleSensorTag/src/main/java/com/example/ti/ble/sensortag/LicenseDialog.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.8710692">
+          <caret line="62" column="13" selection-start-line="62" selection-start-column="13" selection-end-line="62" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BleSensorTag/src/main/java/com/example/ti/ble/sensortag/FwUpdateActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-22.880503">
+          <caret line="89" column="13" selection-start-line="89" selection-start-column="13" selection-end-line="89" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BleSensorTag/src/main/java/com/example/ti/ble/sensortag/fwSelectorView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="72" column="13" selection-start-line="72" selection-start-column="13" selection-end-line="72" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BleSensorTag/src/main/java/com/example/ti/ble/sensortag/PreferencesListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.5503144">
+          <caret line="69" column="13" selection-start-line="69" selection-start-column="13" selection-end-line="69" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BleSensorTag/src/main/java/com/example/ti/ble/sensortag/SensorTagDisplayProfile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.751572">
+          <caret line="72" column="13" selection-start-line="72" selection-start-column="13" selection-end-line="72" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BleSensorTag/src/main/java/com/example/ti/ble/sensortag/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="77.68965">
+          <caret line="312" column="13" selection-start-line="312" selection-start-column="13" selection-end-line="312" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#3216#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BleSensorTag/src/main/java/com/example/ti/ble/sensortag/SensorTagAccelerometerProfile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.05345912">
+          <caret line="79" column="88" selection-start-line="79" selection-start-column="76" selection-end-line="79" selection-end-column="88" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BleSensorTag/src/main/java/com/example/ti/ble/btsig/profiles/DeviceInformationServiceTableRow.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="62" column="8" selection-start-line="62" selection-start-column="8" selection-end-line="62" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BleSensorTag/src/main/java/com/example/ti/ble/btsig/profiles/DeviceInformationServiceProfile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.462264">
+          <caret line="69" column="56" selection-start-line="69" selection-start-column="53" selection-end-line="69" selection-end-column="76" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BleSensorTag/src/main/java/com/example/ti/ble/sensortag/SensorTagGatt.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.05345912">
+          <caret line="58" column="13" selection-start-line="58" selection-start-column="13" selection-end-line="58" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BleSensorTag/src/main/java/com/example/ti/ble/sensortag/FileActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="153" column="4" selection-start-line="153" selection-start-column="4" selection-end-line="153" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BleSensorTag/src/main/java/com/example/ti/ble/sensortag/PreferencesFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="64" column="13" selection-start-line="64" selection-start-column="13" selection-end-line="64" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BleSensorTag/src/main/java/com/example/ti/ble/sensortag/PreferencesActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.015723271">
+          <caret line="74" column="49" selection-start-line="74" selection-start-column="49" selection-end-line="74" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BleSensorTag/src/main/java/com/example/ti/ble/sensortag/ScanView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="78" column="13" selection-start-line="78" selection-start-column="13" selection-end-line="78" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BleSensorTag/src/main/java/com/example/ti/ble/sensortag/DeviceView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="65" column="17" selection-start-line="65" selection-start-column="17" selection-end-line="65" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BleSensorTag/src/main/java/com/example/ti/ble/sensortag/AboutDialog.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="4.0094337">
+          <caret line="137" column="17" selection-start-line="137" selection-start-column="17" selection-end-line="137" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BleSensorTag/src/main/java/com/example/ti/ble/common/BleDeviceInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.30503145">
+          <caret line="68" column="0" selection-start-line="68" selection-start-column="0" selection-end-line="68" selection-end-column="0" />
+          <folding>
+            <element signature="e#3548#3549#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BleSensorTag/src/main/java/com/example/ti/ble/common/BluetoothGATTDefines.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="57" column="13" selection-start-line="57" selection-start-column="13" selection-end-line="57" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BleSensorTag/src/main/java/com/example/ti/ble/common/BluetoothLeService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="781" column="17" selection-start-line="781" selection-start-column="17" selection-end-line="781" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BleSensorTag/src/main/java/com/example/ti/ble/common/CloudProfileConfigurationDialogFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="156" column="29" selection-start-line="156" selection-start-column="29" selection-end-line="156" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BleSensorTag/src/main/java/com/example/ti/ble/sensortag/SensorTagTestProfile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="86" column="30" selection-start-line="86" selection-start-column="16" selection-end-line="86" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BleSensorTag/src/main/java/com/example/ti/ble/sensortag/SensorTagUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="57" column="13" selection-start-line="57" selection-start-column="13" selection-end-line="57" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BleSensorTag/src/main/java/com/example/ti/ble/sensortag/ViewPagerActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="72" column="13" selection-start-line="72" selection-start-column="13" selection-end-line="72" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BleSensorTag/src/main/java/com/example/ti/ble/sensortag/SensorTagApplicationClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="3.3679245">
+          <caret line="128" column="36" selection-start-line="128" selection-start-column="36" selection-end-line="128" selection-end-column="36" />
           <folding />
         </state>
       </provider>
@@ -2778,16 +2904,27 @@
     <entry file="file://$PROJECT_DIR$/BleSensorTag/src/main/java/com/example/ti/ble/sensortag/Sensor.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="92" column="30" selection-start-line="92" selection-start-column="30" selection-end-line="92" selection-end-column="30" />
+          <caret line="92" column="20" selection-start-line="92" selection-start-column="20" selection-end-line="92" selection-end-column="20" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/BleSensorTag/src/main/java/com/example/ti/ble/sensortag/PreferencesFragment.java">
+    <entry file="file://$PROJECT_DIR$/BleSensorTag/src/main/java/com/example/ti/ble/common/GenericBluetoothProfile.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.29589632">
-          <caret line="64" column="13" selection-start-line="64" selection-start-column="13" selection-end-line="64" selection-end-column="13" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="114" column="8" selection-start-line="114" selection-start-column="8" selection-end-line="114" selection-end-column="8" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BleSensorTag/src/main/java/com/example/ti/ble/sensortag/DeviceActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.3207547">
+          <caret line="501" column="60" selection-start-line="501" selection-start-column="60" selection-end-line="501" selection-end-column="60" />
+          <folding>
+            <element signature="e#0#3203#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

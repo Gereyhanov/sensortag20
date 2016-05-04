@@ -9,13 +9,10 @@ import android.content.Context;
 import android.content.Intent;
 import android.content.IntentFilter;
 import android.util.Log;
-import android.view.MotionEvent;
 import android.view.View;
 
 import com.example.ti.ble.common.BluetoothLeService;
-import com.example.ti.ble.common.CloudProfileConfigurationDialogFragment;
 import com.example.ti.ble.common.GenericBluetoothProfile;
-import com.example.ti.ble.sensortag.SensorTagGatt;
 
 import java.util.List;
 import java.util.Timer;

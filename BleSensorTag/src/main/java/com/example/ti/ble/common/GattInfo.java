@@ -52,16 +52,16 @@
  **************************************************************************************************/
 package com.example.ti.ble.common;
 
+import android.content.res.XmlResourceParser;
+
+import org.xmlpull.v1.XmlPullParser;
+import org.xmlpull.v1.XmlPullParserException;
+
 import java.io.IOException;
 import java.util.HashMap;
 import java.util.Locale;
 import java.util.Map;
 import java.util.UUID;
-
-import org.xmlpull.v1.XmlPullParser;
-import org.xmlpull.v1.XmlPullParserException;
-
-import android.content.res.XmlResourceParser;
 
 public class GattInfo {
   // Bluetooth SIG identifiers

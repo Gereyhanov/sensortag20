@@ -52,11 +52,6 @@
  **************************************************************************************************/
 package com.example.ti.ble.sensortag;
 
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
-import java.util.UUID;
-
 import android.bluetooth.BluetoothDevice;
 import android.bluetooth.BluetoothGattCharacteristic;
 import android.bluetooth.BluetoothGattService;
@@ -68,6 +63,11 @@ import com.example.ti.ble.common.GattInfo;
 import com.example.ti.ble.common.GenericBluetoothProfile;
 import com.example.ti.util.GenericCharacteristicTableRow;
 import com.example.ti.util.Point3D;
+
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+import java.util.UUID;
 
 public class SensorTagHumidityProfile extends GenericBluetoothProfile {
 		public SensorTagHumidityProfile(Context con,BluetoothDevice device,BluetoothGattService service,BluetoothLeService controller) {

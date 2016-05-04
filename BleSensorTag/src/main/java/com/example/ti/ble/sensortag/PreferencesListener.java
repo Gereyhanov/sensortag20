@@ -52,16 +52,16 @@
  **************************************************************************************************/
 package com.example.ti.ble.sensortag;
 
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Locale;
-
 import android.app.AlertDialog;
 import android.content.Context;
 import android.content.DialogInterface;
 import android.content.SharedPreferences;
 import android.preference.CheckBoxPreference;
 import android.preference.PreferenceFragment;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Locale;
 
 /**
  * Processing changes in preferences.

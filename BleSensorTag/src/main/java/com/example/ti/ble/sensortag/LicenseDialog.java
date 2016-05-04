@@ -60,8 +60,6 @@ import android.view.Window;
 import android.webkit.WebView;
 import android.widget.Button;
 
-import com.example.ti.ble.sensortag.R;
-
 public class LicenseDialog extends Dialog {
 	private static LicenseDialog mDialog;
 	private static OkListener mOkListener;

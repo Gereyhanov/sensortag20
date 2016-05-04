@@ -56,14 +56,9 @@ import android.content.Context;
 import android.graphics.Canvas;
 import android.graphics.Color;
 import android.graphics.Paint;
-import android.graphics.Typeface;
-import android.view.LayoutInflater;
-import android.view.View;
 import android.widget.RelativeLayout;
 import android.widget.TableRow;
 import android.widget.TextView;
-
-import com.example.ti.ble.sensortag.R;
 
 public class firmwareEntryTableRow extends TableRow {
     private final Paint linePaint;

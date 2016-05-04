@@ -52,9 +52,6 @@
  **************************************************************************************************/
 package com.example.ti.ble.sensortag;
 
-import java.util.Timer;
-import java.util.TimerTask;
-
 import android.content.Context;
 import android.view.View;
 import android.view.animation.AlphaAnimation;
@@ -63,6 +60,9 @@ import android.widget.ImageView;
 import android.widget.RelativeLayout;
 
 import com.example.ti.util.GenericCharacteristicTableRow;
+
+import java.util.Timer;
+import java.util.TimerTask;
 
 public class SensorTagSimpleKeysTableRow extends GenericCharacteristicTableRow {
 	protected byte lastKeys;

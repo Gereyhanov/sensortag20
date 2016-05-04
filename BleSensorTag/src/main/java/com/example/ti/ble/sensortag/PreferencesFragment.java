@@ -52,15 +52,13 @@
  **************************************************************************************************/
 package com.example.ti.ble.sensortag;
 
-import java.util.Locale;
-
-import com.example.ti.ble.sensortag.R;
-
 import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.preference.PreferenceFragment;
 import android.preference.PreferenceManager;
 import android.util.Log;
+
+import java.util.Locale;
 
 public class PreferencesFragment extends PreferenceFragment  {
   

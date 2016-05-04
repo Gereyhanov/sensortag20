@@ -22,7 +22,7 @@ ADDED from G:\Programas Juan Carlos\Android\sensortag20\BleSensorTag\src\main\An
 		INJECTED from G:\Programas Juan Carlos\Android\sensortag20\BleSensorTag\src\main\AndroidManifest.xml
 		INJECTED from G:\Programas Juan Carlos\Android\sensortag20\BleSensorTag\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		ADDED from G:\Programas Juan Carlos\Android\sensortag20\BleSensorTag\src\main\AndroidManifest.xml:8:9-35
+		ADDED from G:\Programas Juan Carlos\Android\sensortag20\BleSensorTag\src\main\AndroidManifest.xml:8:9-34
 		INJECTED from G:\Programas Juan Carlos\Android\sensortag20\BleSensorTag\src\main\AndroidManifest.xml
 		INJECTED from G:\Programas Juan Carlos\Android\sensortag20\BleSensorTag\src\main\AndroidManifest.xml
 uses-permission#android.permission.BLUETOOTH

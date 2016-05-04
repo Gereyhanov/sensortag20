@@ -52,10 +52,10 @@
  **************************************************************************************************/
 package com.example.ti.util;
 
+import android.widget.ProgressBar;
+
 import java.util.Timer;
 import java.util.TimerTask;
-
-import android.widget.ProgressBar;
 
 public class CustomTimer {
   private Timer mTimer;

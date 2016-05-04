@@ -52,11 +52,6 @@
  **************************************************************************************************/
 package com.example.ti.ble.ti.profiles;
 
-import java.io.FileWriter;
-import java.util.List;
-import java.util.zip.Inflater;
-
-import android.app.AlertDialog;
 import android.bluetooth.BluetoothDevice;
 import android.bluetooth.BluetoothGattCharacteristic;
 import android.bluetooth.BluetoothGattService;
@@ -65,15 +60,12 @@ import android.content.Context;
 import android.content.Intent;
 import android.content.IntentFilter;
 import android.util.Log;
-import android.view.LayoutInflater;
 import android.view.View;
-import android.widget.Button;
 
 import com.example.ti.ble.common.BluetoothLeService;
 import com.example.ti.ble.common.GenericBluetoothProfile;
-import com.example.ti.ble.sensortag.FileActivity;
-import com.example.ti.ble.sensortag.FwUpdateActivity;
-import com.example.ti.ble.sensortag.R;
+
+import java.util.List;
 
 public class TIOADProfile extends GenericBluetoothProfile {
 	private static final String oadService_UUID = "f000ffc0-0451-4000-b000-000000000000";

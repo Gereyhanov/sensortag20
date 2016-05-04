@@ -52,13 +52,6 @@
  **************************************************************************************************/
 package com.example.ti.ble.sensortag;
 
-import com.example.ti.ble.common.GenericBluetoothProfile;
-
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
-import java.util.UUID;
-
 import android.bluetooth.BluetoothDevice;
 import android.bluetooth.BluetoothGattCharacteristic;
 import android.bluetooth.BluetoothGattService;
@@ -66,8 +59,14 @@ import android.content.Context;
 
 import com.example.ti.ble.common.BluetoothLeService;
 import com.example.ti.ble.common.GattInfo;
+import com.example.ti.ble.common.GenericBluetoothProfile;
 import com.example.ti.util.GenericCharacteristicTableRow;
 import com.example.ti.util.Point3D;
+
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+import java.util.UUID;
 
 public class SensorTagLuxometerProfile extends GenericBluetoothProfile {
 		public SensorTagLuxometerProfile(Context con,BluetoothDevice device,BluetoothGattService service,BluetoothLeService controller) {

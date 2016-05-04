@@ -52,9 +52,9 @@
  **************************************************************************************************/
 package com.example.ti.ble.sensortag;
 
-import static java.util.UUID.fromString;
-
 import java.util.UUID;
+
+import static java.util.UUID.fromString;
 
 public class SensorTagGatt {
 

@@ -52,13 +52,6 @@
  **************************************************************************************************/
 package com.example.ti.ble.sensortag;
 
-import java.io.File;
-import java.io.IOException;
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Timer;
-import java.util.TimerTask;
-
 import android.app.Activity;
 import android.app.AlertDialog;
 import android.app.Dialog;
@@ -76,7 +69,6 @@ import android.content.res.Resources;
 import android.net.Uri;
 import android.os.Bundle;
 import android.preference.PreferenceManager;
-// import android.util.Log;
 import android.util.Log;
 import android.view.Menu;
 import android.view.MenuInflater;
@@ -91,9 +83,16 @@ import com.example.ti.ble.common.HCIDefines;
 import com.example.ti.ble.common.HelpView;
 import com.example.ti.util.CustomToast;
 
+import java.io.File;
+import java.io.IOException;
+import java.util.ArrayList;
+import java.util.List;
+
+// import android.util.Log;
+
 public class MainActivity extends ViewPagerActivity {
 	// Log
-	// private static final String TAG = "MainActivity";
+	private static final String TAG = "MainActivity";
 
 	// URLs
 	private static final Uri URL_FORUM = Uri

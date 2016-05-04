@@ -53,7 +53,6 @@
 package com.example.ti.ble.common;
 
 import android.app.Activity;
-import android.app.AlertDialog;
 import android.bluetooth.BluetoothDevice;
 import android.bluetooth.BluetoothGattCharacteristic;
 import android.bluetooth.BluetoothGattService;
@@ -66,18 +65,13 @@ import android.net.Uri;
 import android.os.BatteryManager;
 import android.os.Environment;
 import android.os.PowerManager.WakeLock;
-import android.text.Html;
 import android.util.Log;
 import android.view.View;
 import android.widget.CompoundButton;
-import android.widget.Toast;
-import android.content.SharedPreferences;
+
 import com.example.ti.ble.sensortag.R;
 
 import org.eclipse.paho.android.service.MqttAndroidClient;
-import org.eclipse.paho.client.mqttv3.IMqttActionListener;
-import org.eclipse.paho.client.mqttv3.IMqttToken;
-import org.eclipse.paho.client.mqttv3.MqttConnectOptions;
 import org.eclipse.paho.client.mqttv3.MqttException;
 import org.eclipse.paho.client.mqttv3.MqttMessage;
 import org.eclipse.paho.client.mqttv3.persist.MemoryPersistence;
@@ -97,7 +91,6 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.HashMap;
 import java.util.Map;
-import java.util.Properties;
 import java.util.Timer;
 import java.util.TimerTask;
 

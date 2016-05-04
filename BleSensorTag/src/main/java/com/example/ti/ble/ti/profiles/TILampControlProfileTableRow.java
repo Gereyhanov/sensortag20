@@ -2,10 +2,8 @@ package com.example.ti.ble.ti.profiles;
 
 import android.content.Context;
 import android.widget.Button;
-import android.widget.ImageView;
 import android.widget.RelativeLayout;
 
-import com.example.ti.ble.sensortag.R;
 import com.example.ti.util.GenericCharacteristicTableRow;
 
 /**

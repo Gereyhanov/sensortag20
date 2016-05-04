@@ -52,25 +52,6 @@
  **************************************************************************************************/
 package com.example.ti.util;
 
-import java.io.FileNotFoundException;
-import java.io.InputStream;
-import java.util.UUID;
-
-import com.example.ti.ble.common.GattInfo;
-import com.example.ti.ble.sensortag.R;
-
-import android.view.Display;
-import android.view.View;
-import android.view.WindowManager;
-import android.view.animation.AlphaAnimation;
-import android.view.animation.Animation;
-import android.widget.Button;
-import android.widget.ImageView;
-import android.widget.RelativeLayout;
-import android.widget.SeekBar;
-import android.widget.Switch;
-import android.widget.TableRow;
-import android.widget.TextView;
 import android.content.Context;
 import android.content.Intent;
 import android.content.res.Configuration;
@@ -85,8 +66,26 @@ import android.graphics.drawable.Drawable;
 import android.net.Uri;
 import android.util.Log;
 import android.util.TypedValue;
-import com.example.ti.util.SparkLineView;
+import android.view.Display;
+import android.view.View;
+import android.view.WindowManager;
+import android.view.animation.AlphaAnimation;
+import android.view.animation.Animation;
+import android.widget.Button;
 import android.widget.CompoundButton;
+import android.widget.ImageView;
+import android.widget.RelativeLayout;
+import android.widget.SeekBar;
+import android.widget.Switch;
+import android.widget.TableRow;
+import android.widget.TextView;
+
+import com.example.ti.ble.common.GattInfo;
+import com.example.ti.ble.sensortag.R;
+
+import java.io.FileNotFoundException;
+import java.io.InputStream;
+import java.util.UUID;
 
 public class GenericCharacteristicTableRow extends TableRow implements View.OnClickListener, Animation.AnimationListener, SeekBar.OnSeekBarChangeListener, CompoundButton.OnCheckedChangeListener {
 	//Normal cell operation : Show data contents

@@ -52,14 +52,11 @@
  **************************************************************************************************/
 package com.example.ti.ble.sensortag;
 
-import java.util.List;
-
 import android.annotation.SuppressLint;
 import android.bluetooth.BluetoothDevice;
 import android.content.Context;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
-// import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -72,9 +69,12 @@ import android.widget.ListView;
 import android.widget.TextView;
 
 import com.example.ti.ble.common.BleDeviceInfo;
-import com.example.ti.ble.sensortag.R;
 import com.example.ti.util.CustomTimer;
 import com.example.ti.util.CustomTimerCallback;
+
+import java.util.List;
+
+// import android.util.Log;
 
 public class ScanView extends Fragment {
   // private static final String TAG = "ScanView";

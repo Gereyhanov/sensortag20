@@ -52,25 +52,22 @@
  **************************************************************************************************/
 package com.example.ti.ble.sensortag;
 
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
-import java.util.UUID;
-
 import android.bluetooth.BluetoothDevice;
 import android.bluetooth.BluetoothGattCharacteristic;
 import android.bluetooth.BluetoothGattService;
 import android.content.Context;
-import android.util.ArrayMap;
-import android.util.Log;
 import android.view.View;
-import android.view.animation.Animation;
 
 import com.example.ti.ble.common.BluetoothLeService;
 import com.example.ti.ble.common.GattInfo;
 import com.example.ti.ble.common.GenericBluetoothProfile;
 import com.example.ti.util.GenericCharacteristicTableRow;
 import com.example.ti.util.Point3D;
+
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+import java.util.UUID;
 
 public class SensorTagAccelerometerProfile extends GenericBluetoothProfile {
 	public SensorTagAccelerometerProfile(Context con,BluetoothDevice device,BluetoothGattService service,BluetoothLeService controller) {

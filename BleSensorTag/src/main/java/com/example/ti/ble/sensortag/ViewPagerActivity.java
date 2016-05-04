@@ -52,9 +52,6 @@
  **************************************************************************************************/
 package com.example.ti.ble.sensortag;
 
-import java.util.ArrayList;
-import java.util.List;
-
 import android.app.ActionBar;
 import android.app.Dialog;
 import android.app.FragmentTransaction;
@@ -64,12 +61,14 @@ import android.support.v4.app.FragmentActivity;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentStatePagerAdapter;
 import android.support.v4.view.ViewPager;
-// import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.ImageView;
 
-import com.example.ti.ble.sensortag.R;
+import java.util.ArrayList;
+import java.util.List;
+
+// import android.util.Log;
 
 public class ViewPagerActivity extends FragmentActivity {
   // Constants

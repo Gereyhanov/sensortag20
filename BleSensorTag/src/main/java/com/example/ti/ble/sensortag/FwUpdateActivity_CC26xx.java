@@ -61,7 +61,6 @@ import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
 import android.content.IntentFilter;
-import android.content.SharedPreferences;
 import android.os.Build;
 import android.os.Bundle;
 import android.os.Environment;
@@ -74,27 +73,19 @@ import android.view.WindowManager;
 import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.ProgressBar;
-import android.widget.TableRow;
 import android.widget.TextView;
 import android.widget.Toast;
 
 import com.example.ti.ble.common.BluetoothLeService;
-import com.example.ti.ble.common.CloudProfileConfigurationDialogFragment;
 import com.example.ti.util.Conversion;
 import com.example.ti.util.PreferenceWR;
 import com.example.ti.util.firmwareEntriesParser;
 import com.example.ti.util.tiFirmwareEntry;
-import com.example.ti.ble.sensortag.fwSelectorView;
-import com.example.ti.util.firmwareEntryTableRow;
-
-import org.w3c.dom.Text;
 
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.InputStream;
-import java.io.InputStreamReader;
-import java.io.StringWriter;
 import java.util.List;
 import java.util.Timer;
 import java.util.TimerTask;

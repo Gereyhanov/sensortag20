@@ -52,14 +52,8 @@
  **************************************************************************************************/
 package com.example.ti.ble.sensortag;
 
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
-
 import android.annotation.SuppressLint;
 import android.app.AlertDialog;
-import android.app.AlertDialog.Builder;
 import android.app.ProgressDialog;
 import android.bluetooth.BluetoothDevice;
 import android.bluetooth.BluetoothGatt;
@@ -76,33 +70,31 @@ import android.content.res.XmlResourceParser;
 import android.os.AsyncTask;
 import android.os.Build;
 import android.os.Bundle;
-import android.os.CountDownTimer;
-import android.os.Looper;
 import android.preference.PreferenceManager;
 import android.util.Log;
-import android.view.LayoutInflater;
-// import android.util.Log;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.Window;
-import android.widget.TextView;
 import android.widget.Toast;
-
 
 import com.example.ti.ble.btsig.profiles.DeviceInformationServiceProfile;
 import com.example.ti.ble.common.BluetoothGATTDefines;
 import com.example.ti.ble.common.BluetoothLeService;
 import com.example.ti.ble.common.GattInfo;
 import com.example.ti.ble.common.GenericBluetoothProfile;
-import com.example.ti.ble.common.HCIDefines;
 import com.example.ti.ble.common.HelpView;
-import com.example.ti.ble.sensortag.R;
+import com.example.ti.ble.common.IBMIoTCloudProfile;
 import com.example.ti.ble.ti.profiles.TILampControlProfile;
 import com.example.ti.ble.ti.profiles.TIOADProfile;
-import com.example.ti.ble.common.IBMIoTCloudProfile;
 import com.example.ti.util.PreferenceWR;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Map;
+
+// import android.util.Log;
 
 
 @SuppressLint("InflateParams") public class DeviceActivity extends ViewPagerActivity {
