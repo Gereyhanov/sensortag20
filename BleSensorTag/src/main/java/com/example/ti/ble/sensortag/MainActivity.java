@@ -385,7 +385,7 @@ public class MainActivity extends ViewPagerActivity {
 	private void stopScan() {
 		mScanning = false;
 		mScanView.updateGui(false);
-		scanLeDevice(false);
+		//scanLeDevice(false);
 	}
 
 	private void startDeviceActivity() {
@@ -500,6 +500,7 @@ public class MainActivity extends ViewPagerActivity {
 		else
 			mScanView.setStatus("1 device");
 		// se añade para autocnx
+		// se comenta por que hace que la busqueda pare
 		onScanTimeout();
 		onDeviceClick(0);
 		mScanning = false;
@@ -530,8 +531,13 @@ public class MainActivity extends ViewPagerActivity {
 			mScanning = mBtAdapter.startLeScan(mLeScanCallback);
 		} else {
 			mScanning = false;
+
 			mBtAdapter.stopLeScan(mLeScanCallback);
+			Log.e("Buscando", "stop here");
+			//startScan();
+			//scanLeDevice(true);
 			// cuando se detiene el escaneo reinicia la busqueda
+
 
 		}
 		return mScanning;
@@ -623,6 +629,11 @@ public class MainActivity extends ViewPagerActivity {
 				}
 				mConnIndex = NO_DEVICE;
 				mBluetoothLeService.close();
+
+				// al cerrarse la conexion comienza a buscar el dispositivo
+				//scanLeDevice(true);
+				startScan();
+				Log.e("Buscando", "BuscandoOtraVez");
 			} else {
 				// Log.w(TAG,"Unknown action: " + action);
 			}

@@ -54,12 +54,14 @@ package com.example.ti.ble.sensortag;
 
 //import static android.bluetooth.BluetoothGattCharacteristic.FORMAT_UINT8;
 import static com.example.ti.ble.sensortag.SensorTagGatt.*;
+import static java.lang.Math.log;
 import static java.lang.Math.pow;
 
 import java.util.List;
 import java.util.UUID;
 import com.example.ti.util.Point3D;
 import android.bluetooth.BluetoothGattCharacteristic;
+import android.util.Log;
 
 
 /**
@@ -85,7 +87,12 @@ public enum Sensor {
 
 		private double extractAmbientTemperature(byte [] v) {
 			int offset = 2;
-			return shortUnsignedAtOffset(v, offset) / 128.0;
+			double data = shortUnsignedAtOffset(v, offset) / 128.0;
+
+			if(data>200){
+				data = data - 512;
+			}
+			return data;
 		}
 
 		private double extractTargetTemperature(byte [] v, double ambient) {
@@ -113,7 +120,14 @@ public enum Sensor {
 		}
 		private double extractTargetTemperatureTMP007(byte [] v) {
 			int offset = 0;
-			return shortUnsignedAtOffset(v, offset) / 128.0;
+			double data = shortUnsignedAtOffset(v, offset) / 128.0;
+
+			//data = data +255;
+			if(data>200){
+				data = data - 512;
+			}
+			Log.e("temp","temp : "+ data+ " bite "+v);
+			return data;
 		}
 	},
 

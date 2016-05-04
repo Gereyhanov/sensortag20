@@ -28,4 +28,4 @@
         android:onClick="onConfirm"
         android:text="@string/btn_txt_confirm" />
 
-</LinearLayout><!-- From: file:/G:/Programas%20Juan%20Carlos/Android/sensortag20/BleSensorTag/src/main/res/layout/activity_file.xml -->
+</LinearLayout>

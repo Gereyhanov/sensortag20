@@ -61,13 +61,17 @@ import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
 import android.content.IntentFilter;
+import android.content.SharedPreferences;
 import android.net.Uri;
+import android.os.BatteryManager;
+import android.os.Environment;
 import android.os.PowerManager.WakeLock;
 import android.text.Html;
 import android.util.Log;
 import android.view.View;
 import android.widget.CompoundButton;
-
+import android.widget.Toast;
+import android.content.SharedPreferences;
 import com.example.ti.ble.sensortag.R;
 
 import org.eclipse.paho.android.service.MqttAndroidClient;
@@ -80,11 +84,17 @@ import org.eclipse.paho.client.mqttv3.persist.MemoryPersistence;
 
 import java.io.BufferedInputStream;
 import java.io.BufferedReader;
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
+import java.io.OutputStreamWriter;
 import java.net.HttpURLConnection;
 import java.net.URL;
+import java.text.SimpleDateFormat;
+import java.util.Date;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Properties;
@@ -104,6 +114,19 @@ public class IBMIoTCloudProfile extends GenericBluetoothProfile {
     private WakeLock wakeLock;
     BroadcastReceiver cloudConfigUpdateReceiver;
     cloudConfig config;
+    // variables para usar el almacenamiento
+    private SharedPreferences sharedpreferencebs ;
+    private static final String MyPREFERENCES = "MyPrefs" ;
+    private static final String numArchivo = "numArchivoKey";
+    private static final String numLinea = "numLineaKey";
+    private static final String KeyThingspeak =  "keyThingspeak";
+
+    private static final int numberOfRows = 30000;
+    private int countToSend = 1; // valor inicial
+    private int datosPorEnvio = 1; // 15 datos por minuto, 30 en 2 min
+
+
+
 
     public IBMIoTCloudProfile(final Context con,BluetoothDevice device,BluetoothGattService service,BluetoothLeService controller) {
         super(con,device,service,controller);
@@ -156,7 +179,7 @@ public class IBMIoTCloudProfile extends GenericBluetoothProfile {
                     connect();
                 }
                 else {
-                    disconnect();
+                    //disconnect();
                 }
             }
         });
@@ -220,6 +243,17 @@ public class IBMIoTCloudProfile extends GenericBluetoothProfile {
             }
         };
         this.context.registerReceiver(cloudConfigUpdateReceiver,makeCloudConfigUpdateFilter());
+        // codigo de alamacenado, aqui obtengo las preferencia del xml
+        sharedpreferencebs =context.getSharedPreferences(MyPREFERENCES, Activity.MODE_PRIVATE);
+        // si no a sido creado el archivo de preferencias se crea uno con inicializacion en cero
+        if(sharedpreferencebs.getInt(numArchivo, -1)==-1){
+            SharedPreferences.Editor editor = sharedpreferencebs.edit();
+            editor.putInt(numArchivo,0);
+            editor.putInt(numLinea, 0);
+            editor.commit();
+        }
+        Log.d("temp", "error "+sharedpreferencebs.getInt(numArchivo, -1));
+
     }
     public boolean disconnect() {
         try {
@@ -403,12 +437,16 @@ public class IBMIoTCloudProfile extends GenericBluetoothProfile {
                         // client.publish(config.publishTopic, jsonEncode(pub).getBytes(), 0, false);
                         //Log.d("IBMIoTCloudProfile", "Published :" + jsonEncode(pub));
                         // se usa el replace por que thingspeak recive . en lugar de , y # como separador
+                        float f = getBatteryLevel();
                         updateReceivedData(
                                 dict.get("ambient_temp").replace(",",".")+"#"+
                                 dict.get("object_temp").replace(",",".")+"#"+
                                 dict.get("humidity").replace(",",".")+"#"+
-                                dict.get("light").replace(",","."));
-                        Log.d("IBMIoTCloudProfile", "humidity :"+ dict.get("humidity"));
+                                dict.get("light").replace(",",".")+"#"+
+                                f);
+                        Log.d("bat", "battery :"+ f);
+                        // aqui se llama al metodo de guardado en memoria
+                        TestSD(","+dict.get("object_temp").replace(",","."));
                         try {
                             Thread.sleep(60);
                         }
@@ -502,7 +540,77 @@ public class IBMIoTCloudProfile extends GenericBluetoothProfile {
         karelRead1 = new String();
     }
 
+    private void TestSD(String thingspeakData) throws IOException {
+        //public void TestSD (View view) throws IOException {
+        
+        Log.d("sd"," thingspeakData : "+thingspeakData+ " file "+ sharedpreferencebs.getInt(numArchivo, -1)+"bat:"+getBatteryLevel());
 
+
+
+        thingspeakData = "\n" + thingspeakData;
+        String nameDataFile = "F"+sharedpreferencebs.getInt(numArchivo, -1)+".csv";
+        // android.content.SharedPreferences sharedpreferencebs;ruta para memoria interna
+        File myFile = new File(Environment.getExternalStorageDirectory()+"/Haceb/",nameDataFile);
+        // ruta para SD card
+        //File myFile = new File("/storage/sdcard1/",nameDataFile);
+        //Toast.makeText(getBaseContext(),myFile.getAbsolutePath(),
+        //      Toast.LENGTH_SHORT).show();
+        //myFile.mkdirs(); //create folders where write files
+        if(!myFile.exists()){
+            myFile.createNewFile();
+        }
+
+        if(myFile.canWrite()){
+            //Now create the file in the above directory and write the contents into it myFile.createNewFile();
+            try {
+                //String currentDateandTime = new SimpleDateFormat("yyyy-MM-dd HH:mm").format(new Date())
+                String currentDateandTime = new SimpleDateFormat("yyyy-MM-dd HH:mm").format(new Date());
+
+                thingspeakData = currentDateandTime + thingspeakData+"\n" ;
+                OutputStreamWriter escritor = new OutputStreamWriter(new FileOutputStream(myFile,true));
+                escritor.write(thingspeakData);
+                escritor.flush();
+                escritor.close();
+                //Toast.makeText(getBaseContext(), "Escritura OK",
+                 //     Toast.LENGTH_SHORT).show();
+                //auto incremeta las lineas escritas
+                SharedPreferences.Editor editor = sharedpreferencebs.edit();
+
+                if (sharedpreferencebs.getInt(numLinea, -1) >= numberOfRows){
+                    editor.putInt(numLinea, 0);
+                    editor.putInt(numArchivo,sharedpreferencebs.getInt(numArchivo, -1) + 1);
+                }else{
+                    editor.putInt(numLinea, sharedpreferencebs.getInt(numLinea, -1) + 1);
+
+                }
+                editor.commit();
+                //SDCardState = true;
+            } catch (FileNotFoundException e) {
+                //SDCardState = false;
+                e.printStackTrace();
+            } catch (IOException e) {
+                //SDCardState = false;
+                e.printStackTrace();
+            }
+        }else{
+            //Toast.makeText(getBaseContext(), "no se puede escribir",
+            //        Toast.LENGTH_SHORT).show();
+            //SDCardState = false;
+        }
+    }
+    public float getBatteryLevel() {
+
+        Intent batteryIntent =  context.registerReceiver(null, new IntentFilter(Intent.ACTION_BATTERY_CHANGED));
+        int level = batteryIntent.getIntExtra(BatteryManager.EXTRA_LEVEL, -1);
+        int scale = batteryIntent.getIntExtra(BatteryManager.EXTRA_SCALE, -1);
+
+        // Error checking that probably isn't needed but I added just in case.
+        if(level == -1 || scale == -1) {
+            return 50.0f;
+        }
+
+        return ((float)level / (float)scale) * 100.0f;
+    }
     private static IntentFilter makeCloudConfigUpdateFilter() {
         final IntentFilter fi = new IntentFilter();
         fi.addAction(CloudProfileConfigurationDialogFragment.ACTION_CLOUD_CONFIG_WAS_UPDATED);

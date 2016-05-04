@@ -3,4 +3,3 @@
     android:id="@+id/pager"
     android:layout_width="match_parent"
     android:layout_height="match_parent" />
-<!-- From: file:/G:/Programas%20Juan%20Carlos/Android/sensortag20/BleSensorTag/src/main/res/layout/fragment_pager.xml -->

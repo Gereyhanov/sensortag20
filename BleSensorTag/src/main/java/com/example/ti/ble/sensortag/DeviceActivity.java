@@ -268,7 +268,7 @@ import com.example.ti.util.PreferenceWR;
 
 	@Override
 	protected void onPause() {
-		// Log.d(TAG, "onPause");
+		Log.d("TAG", "onPause");
 		super.onPause();
 	}
 	private static IntentFilter makeGattUpdateIntentFilter() {
