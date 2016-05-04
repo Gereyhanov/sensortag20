@@ -435,7 +435,7 @@ public class IBMIoTCloudProfile extends GenericBluetoothProfile {
                                 dict.get("ambient_temp").replace(",",".")+"#"+
                                 dict.get("object_temp").replace(",",".")+"#"+
                                 dict.get("humidity").replace(",",".")+"#"+
-                                dict.get("light").replace(",",".")+"#"+
+                                //dict.get("light").replace(",",".")+"#"+
                                 f);
                         Log.d("bat", "battery :"+ f);
                         // aqui se llama al metodo de guardado en memoria

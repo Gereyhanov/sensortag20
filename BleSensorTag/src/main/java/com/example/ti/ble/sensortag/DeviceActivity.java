@@ -519,9 +519,9 @@ import java.util.Map;
                                     }
                                     // disable service
                                     //lux.grayOutCell(true);
-                                    lux.periodWasUpdated(100);
-                                    //lux.deConfigureService();
-                                    //lux.disableService();
+                                    lux.periodWasUpdated(2450);
+                                    lux.deConfigureService();
+                                    lux.disableService();
                                 }
                                 if (SensorTagSimpleKeysProfile.isCorrectService(s)) {
                                     SensorTagSimpleKeysProfile key = new SensorTagSimpleKeysProfile(context,mBluetoothDevice,s,mBtLeService);

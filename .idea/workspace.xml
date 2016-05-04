@@ -10,197 +10,17 @@
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3dfc167a-ba0b-4b24-8bf4-cb65a581374f" name="Default" comment="se añade tiempo de actualizacion a los sensores">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/common/BluetoothLeService$1.class" afterPath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/common/BluetoothLeService$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/common/BluetoothLeService$2.class" afterPath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/common/BluetoothLeService$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/common/BluetoothLeService$3.class" afterPath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/common/BluetoothLeService$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/common/BluetoothLeService$LocalBinder.class" afterPath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/common/BluetoothLeService$LocalBinder.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/common/BluetoothLeService$bleRequest.class" afterPath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/common/BluetoothLeService$bleRequest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/common/BluetoothLeService$bleRequestOperation.class" afterPath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/common/BluetoothLeService$bleRequestOperation.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/common/BluetoothLeService$bleRequestStatus.class" afterPath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/common/BluetoothLeService$bleRequestStatus.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/common/BluetoothLeService$disconnectTimerTask.class" afterPath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/common/BluetoothLeService$disconnectTimerTask.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/common/BluetoothLeService.class" afterPath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/common/BluetoothLeService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/common/CloudProfileConfigurationDialogFragment$1.class" afterPath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/common/CloudProfileConfigurationDialogFragment$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/common/CloudProfileConfigurationDialogFragment$2.class" afterPath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/common/CloudProfileConfigurationDialogFragment$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/common/CloudProfileConfigurationDialogFragment.class" afterPath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/common/CloudProfileConfigurationDialogFragment.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/common/IBMIoTCloudProfile$1.class" afterPath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/common/IBMIoTCloudProfile$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/common/IBMIoTCloudProfile$2.class" afterPath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/common/IBMIoTCloudProfile$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/common/IBMIoTCloudProfile$3.class" afterPath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/common/IBMIoTCloudProfile$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/common/IBMIoTCloudProfile$4.class" afterPath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/common/IBMIoTCloudProfile$4.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/common/IBMIoTCloudProfile$5.class" afterPath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/common/IBMIoTCloudProfile$5.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/common/IBMIoTCloudProfile$6.class" afterPath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/common/IBMIoTCloudProfile$6.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/common/IBMIoTCloudProfile$MQTTTimerTask$1.class" afterPath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/common/IBMIoTCloudProfile$MQTTTimerTask$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/common/IBMIoTCloudProfile$MQTTTimerTask$2.class" afterPath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/common/IBMIoTCloudProfile$MQTTTimerTask$2.class" />
+    <list default="true" id="3dfc167a-ba0b-4b24-8bf4-cb65a581374f" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/common/IBMIoTCloudProfile$MQTTTimerTask.class" afterPath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/common/IBMIoTCloudProfile$MQTTTimerTask.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/common/IBMIoTCloudProfile$cloudConfig.class" afterPath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/common/IBMIoTCloudProfile$cloudConfig.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/common/IBMIoTCloudProfile.class" afterPath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/common/IBMIoTCloudProfile.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/common/IBMIoTCloudTableRow.class" afterPath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/common/IBMIoTCloudTableRow.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/sensortag/AboutDialog$1.class" afterPath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/sensortag/AboutDialog$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/sensortag/AboutDialog$OkListener.class" afterPath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/sensortag/AboutDialog$OkListener.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/sensortag/AboutDialog.class" afterPath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/sensortag/AboutDialog.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/sensortag/DeviceActivity$1$1$1$1.class" afterPath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/sensortag/DeviceActivity$1$1$1$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/sensortag/DeviceActivity$1$1$1$2.class" afterPath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/sensortag/DeviceActivity$1$1$1$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/sensortag/DeviceActivity$1$1$1.class" afterPath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/sensortag/DeviceActivity$1$1$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/sensortag/DeviceActivity$1$1$2.class" afterPath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/sensortag/DeviceActivity$1$1$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/sensortag/DeviceActivity$1$1$3.class" afterPath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/sensortag/DeviceActivity$1$1$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/sensortag/DeviceActivity$1$1$4.class" afterPath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/sensortag/DeviceActivity$1$1$4.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/sensortag/DeviceActivity$1$1$5.class" afterPath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/sensortag/DeviceActivity$1$1$5.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/sensortag/DeviceActivity$1$1$6.class" afterPath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/sensortag/DeviceActivity$1$1$6.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/sensortag/DeviceActivity$1$1$7.class" afterPath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/sensortag/DeviceActivity$1$1$7.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/sensortag/DeviceActivity$1$1.class" afterPath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/sensortag/DeviceActivity$1$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/sensortag/DeviceActivity$1.class" afterPath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/sensortag/DeviceActivity$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/sensortag/DeviceActivity$firmwareUpdateStart.class" afterPath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/sensortag/DeviceActivity$firmwareUpdateStart.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/sensortag/DeviceActivity.class" afterPath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/sensortag/DeviceActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/sensortag/FileActivity$1.class" afterPath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/sensortag/FileActivity$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/sensortag/FileActivity$2.class" afterPath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/sensortag/FileActivity$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/sensortag/FileActivity$FileAdapter.class" afterPath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/sensortag/FileActivity$FileAdapter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/sensortag/FileActivity.class" afterPath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/sensortag/FileActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/sensortag/FwUpdateActivity$1.class" afterPath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/sensortag/FwUpdateActivity$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/sensortag/FwUpdateActivity$2.class" afterPath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/sensortag/FwUpdateActivity$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/sensortag/FwUpdateActivity$3.class" afterPath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/sensortag/FwUpdateActivity$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/sensortag/FwUpdateActivity$ImgHdr.class" afterPath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/sensortag/FwUpdateActivity$ImgHdr.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/sensortag/FwUpdateActivity$OadTask$1.class" afterPath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/sensortag/FwUpdateActivity$OadTask$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/sensortag/FwUpdateActivity$OadTask.class" afterPath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/sensortag/FwUpdateActivity$OadTask.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/sensortag/FwUpdateActivity$ProgInfo.class" afterPath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/sensortag/FwUpdateActivity$ProgInfo.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/sensortag/FwUpdateActivity$ProgTimerTask.class" afterPath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/sensortag/FwUpdateActivity$ProgTimerTask.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/sensortag/FwUpdateActivity.class" afterPath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/sensortag/FwUpdateActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/sensortag/FwUpdateActivity_CC26xx$1.class" afterPath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/sensortag/FwUpdateActivity_CC26xx$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/sensortag/FwUpdateActivity_CC26xx$2.class" afterPath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/sensortag/FwUpdateActivity_CC26xx$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/sensortag/FwUpdateActivity_CC26xx$3.class" afterPath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/sensortag/FwUpdateActivity_CC26xx$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/sensortag/FwUpdateActivity_CC26xx$ImgHdr.class" afterPath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/sensortag/FwUpdateActivity_CC26xx$ImgHdr.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/sensortag/FwUpdateActivity_CC26xx$ProgInfo.class" afterPath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/sensortag/FwUpdateActivity_CC26xx$ProgInfo.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/sensortag/FwUpdateActivity_CC26xx$ProgTimerTask.class" afterPath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/sensortag/FwUpdateActivity_CC26xx$ProgTimerTask.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/sensortag/FwUpdateActivity_CC26xx.class" afterPath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/sensortag/FwUpdateActivity_CC26xx.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/sensortag/LicenseDialog$OkListener.class" afterPath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/sensortag/LicenseDialog$OkListener.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/sensortag/LicenseDialog.class" afterPath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/sensortag/LicenseDialog.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/sensortag/MainActivity$1.class" afterPath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/sensortag/MainActivity$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/sensortag/MainActivity$2.class" afterPath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/sensortag/MainActivity$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/sensortag/MainActivity$3.class" afterPath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/sensortag/MainActivity$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/sensortag/MainActivity$4.class" afterPath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/sensortag/MainActivity$4.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/sensortag/MainActivity$5$1.class" afterPath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/sensortag/MainActivity$5$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/sensortag/MainActivity$5.class" afterPath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/sensortag/MainActivity$5.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/sensortag/MainActivity.class" afterPath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/sensortag/MainActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/sensortag/PreferencesFragment.class" afterPath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/sensortag/PreferencesFragment.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/sensortag/Sensor$1.class" afterPath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/sensortag/Sensor$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/sensortag/Sensor$10.class" afterPath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/sensortag/Sensor$10.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/sensortag/Sensor$11.class" afterPath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/sensortag/Sensor$11.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/sensortag/Sensor$2.class" afterPath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/sensortag/Sensor$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/sensortag/Sensor$3.class" afterPath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/sensortag/Sensor$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/sensortag/Sensor$4.class" afterPath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/sensortag/Sensor$4.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/sensortag/Sensor$5.class" afterPath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/sensortag/Sensor$5.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/sensortag/Sensor$6.class" afterPath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/sensortag/Sensor$6.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/sensortag/Sensor$7.class" afterPath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/sensortag/Sensor$7.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/sensortag/Sensor$8.class" afterPath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/sensortag/Sensor$8.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/sensortag/Sensor$9.class" afterPath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/sensortag/Sensor$9.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/sensortag/Sensor.class" afterPath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/sensortag/Sensor.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/sensortag/SensorTagAccelerometerProfile.class" afterPath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/sensortag/SensorTagAccelerometerProfile.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/sensortag/SensorTagLuxometerProfile.class" afterPath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/sensortag/SensorTagLuxometerProfile.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/sensortag/SensorTagMovementTableRow$1.class" afterPath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/sensortag/SensorTagMovementTableRow$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/sensortag/SensorTagMovementTableRow$2.class" afterPath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/sensortag/SensorTagMovementTableRow$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/sensortag/SensorTagMovementTableRow$3.class" afterPath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/sensortag/SensorTagMovementTableRow$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/sensortag/SensorTagMovementTableRow$4.class" afterPath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/sensortag/SensorTagMovementTableRow$4.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/sensortag/SensorTagMovementTableRow$5.class" afterPath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/sensortag/SensorTagMovementTableRow$5.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/sensortag/SensorTagMovementTableRow$6.class" afterPath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/sensortag/SensorTagMovementTableRow$6.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/sensortag/SensorTagMovementTableRow$7.class" afterPath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/sensortag/SensorTagMovementTableRow$7.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/sensortag/SensorTagMovementTableRow$8.class" afterPath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/sensortag/SensorTagMovementTableRow$8.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/sensortag/SensorTagMovementTableRow$9.class" afterPath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/sensortag/SensorTagMovementTableRow$9.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/sensortag/SensorTagMovementTableRow.class" afterPath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/sensortag/SensorTagMovementTableRow.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/sensortag/SensorTagSimpleKeysProfile.class" afterPath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/sensortag/SensorTagSimpleKeysProfile.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/sensortag/ViewPagerActivity$1.class" afterPath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/sensortag/ViewPagerActivity$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/sensortag/ViewPagerActivity$2.class" afterPath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/sensortag/ViewPagerActivity$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/sensortag/ViewPagerActivity$3.class" afterPath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/sensortag/ViewPagerActivity$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/sensortag/ViewPagerActivity$SectionsPagerAdapter.class" afterPath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/sensortag/ViewPagerActivity$SectionsPagerAdapter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/sensortag/ViewPagerActivity.class" afterPath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/sensortag/ViewPagerActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/sensortag/fwSelectorView$1.class" afterPath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/sensortag/fwSelectorView$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/sensortag/fwSelectorView.class" afterPath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/sensortag/fwSelectorView.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/ti/profiles/TILampControlDialogFragment$1.class" afterPath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/ti/profiles/TILampControlDialogFragment$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/ti/profiles/TILampControlDialogFragment$2.class" afterPath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/ti/profiles/TILampControlDialogFragment$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/ti/profiles/TILampControlDialogFragment.class" afterPath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/ti/profiles/TILampControlDialogFragment.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/ti/profiles/TILampControlProfile$1.class" afterPath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/ti/profiles/TILampControlProfile$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/ti/profiles/TILampControlProfile$2.class" afterPath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/ti/profiles/TILampControlProfile$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/ti/profiles/TILampControlProfile$updateCompoundTask.class" afterPath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/ti/profiles/TILampControlProfile$updateCompoundTask.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/ti/profiles/TILampControlProfile.class" afterPath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/ti/profiles/TILampControlProfile.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/ti/profiles/TILampControlProfileTableRow.class" afterPath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/ti/profiles/TILampControlProfileTableRow.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/ti/profiles/TIOADProfile$1.class" afterPath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/ti/profiles/TIOADProfile$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/ti/profiles/TIOADProfile$2.class" afterPath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/ti/profiles/TIOADProfile$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/ti/profiles/TIOADProfile.class" afterPath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/ble/ti/profiles/TIOADProfile.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/util/GenericCharacteristicTableRow$1.class" afterPath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/util/GenericCharacteristicTableRow$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/util/GenericCharacteristicTableRow$10.class" afterPath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/util/GenericCharacteristicTableRow$10.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/util/GenericCharacteristicTableRow$11.class" afterPath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/util/GenericCharacteristicTableRow$11.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/util/GenericCharacteristicTableRow$12.class" afterPath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/util/GenericCharacteristicTableRow$12.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/util/GenericCharacteristicTableRow$13.class" afterPath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/util/GenericCharacteristicTableRow$13.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/util/GenericCharacteristicTableRow$14.class" afterPath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/util/GenericCharacteristicTableRow$14.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/util/GenericCharacteristicTableRow$15.class" afterPath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/util/GenericCharacteristicTableRow$15.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/util/GenericCharacteristicTableRow$16.class" afterPath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/util/GenericCharacteristicTableRow$16.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/util/GenericCharacteristicTableRow$2.class" afterPath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/util/GenericCharacteristicTableRow$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/util/GenericCharacteristicTableRow$3.class" afterPath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/util/GenericCharacteristicTableRow$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/util/GenericCharacteristicTableRow$4.class" afterPath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/util/GenericCharacteristicTableRow$4.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/util/GenericCharacteristicTableRow$5.class" afterPath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/util/GenericCharacteristicTableRow$5.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/util/GenericCharacteristicTableRow$6.class" afterPath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/util/GenericCharacteristicTableRow$6.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/util/GenericCharacteristicTableRow$7.class" afterPath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/util/GenericCharacteristicTableRow$7.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/util/GenericCharacteristicTableRow$8.class" afterPath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/util/GenericCharacteristicTableRow$8.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/util/GenericCharacteristicTableRow$9.class" afterPath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/util/GenericCharacteristicTableRow$9.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/util/GenericCharacteristicTableRow.class" afterPath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/util/GenericCharacteristicTableRow.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/util/firmwareEntryTableRow$1.class" afterPath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/util/firmwareEntryTableRow$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/util/firmwareEntryTableRow.class" afterPath="$PROJECT_DIR$/BleSensorTag/build/intermediates/classes/debug/com/example/ti/util/firmwareEntryTableRow.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/res/resources-debug-androidTest.ap_" afterPath="$PROJECT_DIR$/BleSensorTag/build/intermediates/res/resources-debug-androidTest.ap_" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/res/resources-debug.ap_" afterPath="$PROJECT_DIR$/BleSensorTag/build/intermediates/res/resources-debug.ap_" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/build/outputs/apk/BleSensorTag-debug-unaligned.apk" afterPath="$PROJECT_DIR$/BleSensorTag/build/outputs/apk/BleSensorTag-debug-unaligned.apk" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/build/outputs/apk/BleSensorTag-debug.apk" afterPath="$PROJECT_DIR$/BleSensorTag/build/outputs/apk/BleSensorTag-debug.apk" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/BleSensorTag.iml" afterPath="$PROJECT_DIR$/BleSensorTag/BleSensorTag.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/build.gradle" afterPath="$PROJECT_DIR$/BleSensorTag/build.gradle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/manifest/androidTest/debug/AndroidManifest.xml" afterPath="$PROJECT_DIR$/BleSensorTag/build/intermediates/manifest/androidTest/debug/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/manifests/full/debug/AndroidManifest.xml" afterPath="$PROJECT_DIR$/BleSensorTag/build/intermediates/manifests/full/debug/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/res/merged/debug/layout/element_device.xml" afterPath="$PROJECT_DIR$/BleSensorTag/build/intermediates/res/merged/debug/layout/element_device.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/res/merged/debug/layout/fragment_pager.xml" afterPath="$PROJECT_DIR$/BleSensorTag/build/intermediates/res/merged/debug/layout/fragment_pager.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/build/intermediates/res/merged/debug/xml/preferences.xml" afterPath="$PROJECT_DIR$/BleSensorTag/build/intermediates/res/merged/debug/xml/preferences.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/build/outputs/logs/manifest-merger-debug-report.txt" afterPath="$PROJECT_DIR$/BleSensorTag/build/outputs/logs/manifest-merger-debug-report.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/BleSensorTag/src/main/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/src/main/java/com/example/ti/ble/btsig/profiles/DeviceInformationServiceProfile.java" afterPath="$PROJECT_DIR$/BleSensorTag/src/main/java/com/example/ti/ble/btsig/profiles/DeviceInformationServiceProfile.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/src/main/java/com/example/ti/ble/common/BluetoothLeService.java" afterPath="$PROJECT_DIR$/BleSensorTag/src/main/java/com/example/ti/ble/common/BluetoothLeService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/src/main/java/com/example/ti/ble/common/CloudProfileConfigurationDialogFragment.java" afterPath="$PROJECT_DIR$/BleSensorTag/src/main/java/com/example/ti/ble/common/CloudProfileConfigurationDialogFragment.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/src/main/java/com/example/ti/ble/common/GattInfo.java" afterPath="$PROJECT_DIR$/BleSensorTag/src/main/java/com/example/ti/ble/common/GattInfo.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/src/main/java/com/example/ti/ble/common/GenericBluetoothProfile.java" afterPath="$PROJECT_DIR$/BleSensorTag/src/main/java/com/example/ti/ble/common/GenericBluetoothProfile.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/src/main/java/com/example/ti/ble/common/IBMIoTCloudProfile.java" afterPath="$PROJECT_DIR$/BleSensorTag/src/main/java/com/example/ti/ble/common/IBMIoTCloudProfile.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/src/main/java/com/example/ti/ble/common/IBMIoTCloudTableRow.java" afterPath="$PROJECT_DIR$/BleSensorTag/src/main/java/com/example/ti/ble/common/IBMIoTCloudTableRow.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/src/main/java/com/example/ti/ble/sensortag/AboutDialog.java" afterPath="$PROJECT_DIR$/BleSensorTag/src/main/java/com/example/ti/ble/sensortag/AboutDialog.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/src/main/java/com/example/ti/ble/sensortag/DeviceActivity.java" afterPath="$PROJECT_DIR$/BleSensorTag/src/main/java/com/example/ti/ble/sensortag/DeviceActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/src/main/java/com/example/ti/ble/sensortag/FileActivity.java" afterPath="$PROJECT_DIR$/BleSensorTag/src/main/java/com/example/ti/ble/sensortag/FileActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/src/main/java/com/example/ti/ble/sensortag/FwUpdateActivity.java" afterPath="$PROJECT_DIR$/BleSensorTag/src/main/java/com/example/ti/ble/sensortag/FwUpdateActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/src/main/java/com/example/ti/ble/sensortag/FwUpdateActivity_CC26xx.java" afterPath="$PROJECT_DIR$/BleSensorTag/src/main/java/com/example/ti/ble/sensortag/FwUpdateActivity_CC26xx.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/src/main/java/com/example/ti/ble/sensortag/LicenseDialog.java" afterPath="$PROJECT_DIR$/BleSensorTag/src/main/java/com/example/ti/ble/sensortag/LicenseDialog.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/src/main/java/com/example/ti/ble/sensortag/MainActivity.java" afterPath="$PROJECT_DIR$/BleSensorTag/src/main/java/com/example/ti/ble/sensortag/MainActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/src/main/java/com/example/ti/ble/sensortag/PreferencesFragment.java" afterPath="$PROJECT_DIR$/BleSensorTag/src/main/java/com/example/ti/ble/sensortag/PreferencesFragment.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/src/main/java/com/example/ti/ble/sensortag/PreferencesListener.java" afterPath="$PROJECT_DIR$/BleSensorTag/src/main/java/com/example/ti/ble/sensortag/PreferencesListener.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/src/main/java/com/example/ti/ble/sensortag/ScanView.java" afterPath="$PROJECT_DIR$/BleSensorTag/src/main/java/com/example/ti/ble/sensortag/ScanView.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/src/main/java/com/example/ti/ble/sensortag/Sensor.java" afterPath="$PROJECT_DIR$/BleSensorTag/src/main/java/com/example/ti/ble/sensortag/Sensor.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/src/main/java/com/example/ti/ble/sensortag/SensorTagAccelerometerProfile.java" afterPath="$PROJECT_DIR$/BleSensorTag/src/main/java/com/example/ti/ble/sensortag/SensorTagAccelerometerProfile.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/src/main/java/com/example/ti/ble/sensortag/SensorTagAmbientTemperatureProfile.java" afterPath="$PROJECT_DIR$/BleSensorTag/src/main/java/com/example/ti/ble/sensortag/SensorTagAmbientTemperatureProfile.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/src/main/java/com/example/ti/ble/sensortag/SensorTagBarometerProfile.java" afterPath="$PROJECT_DIR$/BleSensorTag/src/main/java/com/example/ti/ble/sensortag/SensorTagBarometerProfile.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/src/main/java/com/example/ti/ble/sensortag/SensorTagGatt.java" afterPath="$PROJECT_DIR$/BleSensorTag/src/main/java/com/example/ti/ble/sensortag/SensorTagGatt.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/src/main/java/com/example/ti/ble/sensortag/SensorTagHumidityProfile.java" afterPath="$PROJECT_DIR$/BleSensorTag/src/main/java/com/example/ti/ble/sensortag/SensorTagHumidityProfile.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/src/main/java/com/example/ti/ble/sensortag/SensorTagIRTemperatureProfile.java" afterPath="$PROJECT_DIR$/BleSensorTag/src/main/java/com/example/ti/ble/sensortag/SensorTagIRTemperatureProfile.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/src/main/java/com/example/ti/ble/sensortag/SensorTagLuxometerProfile.java" afterPath="$PROJECT_DIR$/BleSensorTag/src/main/java/com/example/ti/ble/sensortag/SensorTagLuxometerProfile.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/src/main/java/com/example/ti/ble/sensortag/SensorTagMovementProfile.java" afterPath="$PROJECT_DIR$/BleSensorTag/src/main/java/com/example/ti/ble/sensortag/SensorTagMovementProfile.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/src/main/java/com/example/ti/ble/sensortag/SensorTagMovementTableRow.java" afterPath="$PROJECT_DIR$/BleSensorTag/src/main/java/com/example/ti/ble/sensortag/SensorTagMovementTableRow.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/src/main/java/com/example/ti/ble/sensortag/SensorTagSimpleKeysProfile.java" afterPath="$PROJECT_DIR$/BleSensorTag/src/main/java/com/example/ti/ble/sensortag/SensorTagSimpleKeysProfile.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/src/main/java/com/example/ti/ble/sensortag/SensorTagSimpleKeysTableRow.java" afterPath="$PROJECT_DIR$/BleSensorTag/src/main/java/com/example/ti/ble/sensortag/SensorTagSimpleKeysTableRow.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/src/main/java/com/example/ti/ble/sensortag/ViewPagerActivity.java" afterPath="$PROJECT_DIR$/BleSensorTag/src/main/java/com/example/ti/ble/sensortag/ViewPagerActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/src/main/java/com/example/ti/ble/sensortag/fwSelectorView.java" afterPath="$PROJECT_DIR$/BleSensorTag/src/main/java/com/example/ti/ble/sensortag/fwSelectorView.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/src/main/java/com/example/ti/ble/ti/profiles/TILampControlDialogFragment.java" afterPath="$PROJECT_DIR$/BleSensorTag/src/main/java/com/example/ti/ble/ti/profiles/TILampControlDialogFragment.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/src/main/java/com/example/ti/ble/ti/profiles/TILampControlProfile.java" afterPath="$PROJECT_DIR$/BleSensorTag/src/main/java/com/example/ti/ble/ti/profiles/TILampControlProfile.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/src/main/java/com/example/ti/ble/ti/profiles/TILampControlProfileTableRow.java" afterPath="$PROJECT_DIR$/BleSensorTag/src/main/java/com/example/ti/ble/ti/profiles/TILampControlProfileTableRow.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/src/main/java/com/example/ti/ble/ti/profiles/TIOADProfile.java" afterPath="$PROJECT_DIR$/BleSensorTag/src/main/java/com/example/ti/ble/ti/profiles/TIOADProfile.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/src/main/java/com/example/ti/util/CustomTimer.java" afterPath="$PROJECT_DIR$/BleSensorTag/src/main/java/com/example/ti/util/CustomTimer.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/src/main/java/com/example/ti/util/GenericCharacteristicTableRow.java" afterPath="$PROJECT_DIR$/BleSensorTag/src/main/java/com/example/ti/util/GenericCharacteristicTableRow.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/src/main/java/com/example/ti/util/SparkLineView.java" afterPath="$PROJECT_DIR$/BleSensorTag/src/main/java/com/example/ti/util/SparkLineView.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/src/main/java/com/example/ti/util/firmwareEntryTableRow.java" afterPath="$PROJECT_DIR$/BleSensorTag/src/main/java/com/example/ti/util/firmwareEntryTableRow.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/src/main/res/layout/element_device.xml" afterPath="$PROJECT_DIR$/BleSensorTag/src/main/res/layout/element_device.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/src/main/res/layout/fragment_pager.xml" afterPath="$PROJECT_DIR$/BleSensorTag/src/main/res/layout/fragment_pager.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/src/main/res/xml/preferences.xml" afterPath="$PROJECT_DIR$/BleSensorTag/src/main/res/xml/preferences.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" afterPath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" />
     </list>
     <ignored path="sensortag20.iws" />
@@ -254,15 +74,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DeviceActivity.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="DeviceActivity.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/BleSensorTag/src/main/java/com/example/ti/ble/sensortag/DeviceActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.3207547">
-              <caret line="501" column="60" selection-start-line="501" selection-start-column="60" selection-end-line="501" selection-end-column="60" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="521" column="36" selection-start-line="521" selection-start-column="36" selection-end-line="521" selection-end-column="36" />
               <folding>
                 <element signature="e#0#3203#0" expanded="true" />
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IBMIoTCloudProfile.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/BleSensorTag/src/main/java/com/example/ti/ble/common/IBMIoTCloudProfile.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.029010238">
+              <caret line="502" column="0" selection-start-line="502" selection-start-column="0" selection-end-line="502" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -1891,12 +1721,12 @@
         <option value="$PROJECT_DIR$/BleSensorTag/src/main/java/com/example/ti/ble/sensortag/SensorTagLuxometerProfile.java" />
         <option value="$PROJECT_DIR$/BleSensorTag/src/main/java/com/example/ti/ble/common/GenericBluetoothProfile.java" />
         <option value="$PROJECT_DIR$/BleSensorTag/src/main/java/com/example/ti/ble/sensortag/Sensor.java" />
-        <option value="$PROJECT_DIR$/BleSensorTag/src/main/java/com/example/ti/ble/sensortag/DeviceActivity.java" />
-        <option value="$PROJECT_DIR$/BleSensorTag/src/main/java/com/example/ti/ble/common/IBMIoTCloudProfile.java" />
         <option value="$PROJECT_DIR$/BleSensorTag/src/main/java/com/example/ti/ble/sensortag/MainActivity.java" />
         <option value="$PROJECT_DIR$/BleSensorTag/src/main/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/BleSensorTag/build.gradle" />
         <option value="$PROJECT_DIR$/BleSensorTag/src/main/java/com/example/ti/ble/common/BleDeviceInfo.java" />
+        <option value="$PROJECT_DIR$/BleSensorTag/src/main/java/com/example/ti/ble/sensortag/DeviceActivity.java" />
+        <option value="$PROJECT_DIR$/BleSensorTag/src/main/java/com/example/ti/ble/common/IBMIoTCloudProfile.java" />
       </list>
     </option>
   </component>
@@ -1904,7 +1734,7 @@
     <option name="x" value="54" />
     <option name="y" value="-8" />
     <option name="width" value="1320" />
-    <option name="height" value="784" />
+    <option name="height" value="772" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -2147,7 +1977,7 @@
     <property name="recentsLimit" value="5" />
     <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_SERIALS" value="TA0210BDCR" />
     <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_AVD" value="Nexus_5_API_23_x86" />
-    <property name="device.picker.selection" value="SH391W900808" />
+    <property name="device.picker.selection" value="0123456789ABCDEF" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="139" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="139" />
@@ -2456,7 +2286,13 @@
       <option name="project" value="LOCAL" />
       <updated>1458926933811</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="se añade tiempo de actualizacion a los sensores">
+      <created>1462332765744</created>
+      <option name="number" value="00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1462332765744</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TodoView">
@@ -2469,7 +2305,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="54" y="-8" width="1320" height="784" extended-state="6" />
+    <frame x="54" y="-8" width="1320" height="772" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -2477,8 +2313,8 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32428116" sideWeight="0.4968254" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Android Model" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.44728434" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.442492" sideWeight="0.48412699" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.44728434" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.8801917" sideWeight="0.48412699" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
@@ -2487,7 +2323,7 @@
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.7923323" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.64169383" sideWeight="0.4968254" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.64057505" sideWeight="0.4968254" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32854864" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -2527,13 +2363,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/BleSensorTag/src/main/java/com/example/ti/ble/sensortag/SensorTagBarometerProfile.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="112" column="43" selection-start-line="112" selection-start-column="43" selection-end-line="112" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/BleSensorTag/src/main/java/com/example/ti/ble/ti/profiles/TIOADProfile.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -2658,17 +2487,6 @@
         <state vertical-scroll-proportion="0.035940804">
           <caret line="73" column="13" selection-start-line="73" selection-start-column="13" selection-end-line="73" selection-end-column="13" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BleSensorTag/src/main/java/com/example/ti/ble/common/IBMIoTCloudProfile.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.035940804">
-          <caret line="107" column="29" selection-start-line="107" selection-start-column="29" selection-end-line="107" selection-end-column="29" />
-          <folding>
-            <element signature="e#0#3162#0" expanded="false" />
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2917,14 +2735,32 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://G:/Android/sdk/sources/android-21/android/app/Service.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.040498443">
+          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/BleSensorTag/src/main/java/com/example/ti/ble/sensortag/DeviceActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.3207547">
-          <caret line="501" column="60" selection-start-line="501" selection-start-column="60" selection-end-line="501" selection-end-column="60" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="521" column="36" selection-start-line="521" selection-start-column="36" selection-end-line="521" selection-end-column="36" />
           <folding>
             <element signature="e#0#3203#0" expanded="true" />
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BleSensorTag/src/main/java/com/example/ti/ble/common/IBMIoTCloudProfile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.029010238">
+          <caret line="502" column="0" selection-start-line="502" selection-start-column="0" selection-end-line="502" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
