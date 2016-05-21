@@ -26,14 +26,14 @@
         jar="G:\Programas Juan Carlos\Android\sensortag20\BleSensorTag\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
         jumboMode="true"
         revision="21.1.2"
-        sha1="eda8ebda4a918c7a78882a614c73c1119cf776d0">
+        sha1="ca4ab2b78630d7cf56d7447affc2a2fa150c9e9f">
         <dex dex="G:\Programas Juan Carlos\Android\sensortag20\BleSensorTag\build\intermediates\pre-dexed\debug\instant-run-bootstrap_2ae2a18f2346b7543b62a82caae3527ebb66b7e5.jar" />
     </item>
     <item
         jar="G:\Programas Juan Carlos\Android\sensortag20\BleSensorTag\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
         jumboMode="true"
         revision="21.1.2"
-        sha1="0e001f3d56b38cdd688af3ddf5e051c237ffb635">
+        sha1="399ac5b72a356005db6c01ac7e292d4c3a8124f5">
         <dex dex="G:\Programas Juan Carlos\Android\sensortag20\BleSensorTag\build\intermediates\pre-dexed\debug\instant-run_14bcc98571a3c89c45d35e0f67743b7c6785ebf9.jar" />
     </item>
 

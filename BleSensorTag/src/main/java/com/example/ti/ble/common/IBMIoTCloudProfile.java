@@ -333,7 +333,7 @@ public class IBMIoTCloudProfile extends GenericBluetoothProfile {
         MQTTTimerTask task = new MQTTTimerTask();
         // cada 2 min
         //publishTimer.schedule(task,1000,1000);
-        publishTimer.schedule(task,0,15000); // 15000  120000
+        publishTimer.schedule(task,0,120000); // 15000 = 15 seg 120000 = 2 min
         return true;
     }
 

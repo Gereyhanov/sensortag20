@@ -334,6 +334,7 @@ public class MainActivity extends ViewPagerActivity {
 			//stopScan();
 		} else {
 			// // TODO: 22/03/2016 at init
+			stopScan();
 			startScan();
 			Log.d("web", "Inicia escaneo");
 
