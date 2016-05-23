@@ -496,22 +496,22 @@ import java.util.Map;
                                 Log.d("DeviceActivity", "Configuring service with uuid : " + s.getUuid().toString());
                                 if (SensorTagHumidityProfile.isCorrectService(s)) {
                                     SensorTagHumidityProfile hum = new SensorTagHumidityProfile(context,mBluetoothDevice,s,mBtLeService);
-                                    mProfiles.add(hum);
+                                    //mProfiles.add(hum);
                                     if (nrNotificationsOn < maxNotifications) {
-                                        hum.configureService();
+                                        //hum.configureService();
                                         nrNotificationsOn++;
                                     }
                                     else {
                                         hum.grayOutCell(true);
                                     }
                                     Log.d("DeviceActivity","Found Humidity !");
-                                    hum.periodWasUpdated(2450);
+                                    //hum.periodWasUpdated(2450);
                                 }
                                 if (SensorTagLuxometerProfile.isCorrectService(s)) {
                                     SensorTagLuxometerProfile lux = new SensorTagLuxometerProfile(context,mBluetoothDevice,s,mBtLeService);
-                                    mProfiles.add(lux);
+                                    //mProfiles.add(lux);
                                     if (nrNotificationsOn < maxNotifications) {
-                                        lux.configureService();
+                                        //lux.configureService();
                                         nrNotificationsOn++;
                                     }
                                     else {
@@ -520,21 +520,21 @@ import java.util.Map;
                                     // disable service
                                     //lux.grayOutCell(true);
                                     lux.periodWasUpdated(2450);
-                                    lux.deConfigureService();
-                                    lux.disableService();
+                                    //lux.deConfigureService();
+                                    //lux.disableService();
                                 }
                                 if (SensorTagSimpleKeysProfile.isCorrectService(s)) {
                                     SensorTagSimpleKeysProfile key = new SensorTagSimpleKeysProfile(context,mBluetoothDevice,s,mBtLeService);
-                                    mProfiles.add(key);
+                                    //mProfiles.add(key);
                                     if (nrNotificationsOn < maxNotifications) {
-                                        key.configureService();
+                                        //key.configureService();
                                         nrNotificationsOn++;
                                     }
                                     else {
                                         key.grayOutCell(true);
                                     }
                                     Log.d("DeviceActivity", "Found Simple Keys !");
-                                    key.grayOutCell(true);
+                                    //key.grayOutCell(true);
                                     key.deConfigureService();
                                     key.disableService();
 
@@ -587,7 +587,7 @@ import java.util.Map;
                                 }
                                 if (SensorTagMovementProfile.isCorrectService(s)) {
                                     SensorTagMovementProfile mov = new SensorTagMovementProfile(context,mBluetoothDevice,s,mBtLeService);
-                                    mProfiles.add(mov);
+                                    //mProfiles.add(mov);
                                     if (nrNotificationsOn < maxNotifications) {
                                         //mov.configureService();
                                         nrNotificationsOn++;
@@ -604,7 +604,7 @@ import java.util.Map;
                                 }
                                 if (SensorTagAccelerometerProfile.isCorrectService(s)) {
                                     SensorTagAccelerometerProfile acc = new SensorTagAccelerometerProfile(context,mBluetoothDevice,s,mBtLeService);
-                                    mProfiles.add(acc);
+                                    //mProfiles.add(acc);
                                     if (nrNotificationsOn < maxNotifications) {
                                        // acc.configureService();
                                         nrNotificationsOn++;
@@ -616,7 +616,7 @@ import java.util.Map;
                                     //acc.periodWasUpdated(2450);
                                     //acc.deConfigureService();
                                     acc.disableService();
-                                    acc.grayOutCell(true);
+                                    //acc.grayOutCell(true);
 
                                 }
                                 if (SensorTagDisplayProfile.isCorrectService(s)) {

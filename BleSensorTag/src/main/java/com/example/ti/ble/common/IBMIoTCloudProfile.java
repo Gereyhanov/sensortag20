@@ -540,7 +540,7 @@ public class IBMIoTCloudProfile extends GenericBluetoothProfile {
 
 
 
-        thingspeakData = "\n" + thingspeakData;
+        //thingspeakData = "\n" + thingspeakData;
         String nameDataFile = "F"+sharedpreferencebs.getInt(numArchivo, -1)+".csv";
         // android.content.SharedPreferences sharedpreferencebs;ruta para memoria interna
         File myFile = new File(Environment.getExternalStorageDirectory()+"/Haceb/",nameDataFile);
@@ -559,7 +559,7 @@ public class IBMIoTCloudProfile extends GenericBluetoothProfile {
                 //String currentDateandTime = new SimpleDateFormat("yyyy-MM-dd HH:mm").format(new Date())
                 String currentDateandTime = new SimpleDateFormat("yyyy-MM-dd HH:mm").format(new Date());
 
-                thingspeakData = currentDateandTime + thingspeakData+"\n" ;
+                thingspeakData = thingspeakData + currentDateandTime ;
                 OutputStreamWriter escritor = new OutputStreamWriter(new FileOutputStream(myFile,true));
                 escritor.write(thingspeakData);
                 escritor.flush();
